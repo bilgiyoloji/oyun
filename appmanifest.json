@@ -1,7 +1,7 @@
 {
 	"name": "Bilgiyoloji",
 	"short_name": "Bilgiyoloji",
-	"description": "",
+	"description": "Biyoloji sistemler bilgi yarışması",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "landscape",
