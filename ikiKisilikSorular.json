@@ -1,0 +1,3620 @@
+{
+  "sinir": [
+    {
+      "soru": "Merkezi sinir sistemi hangi yapılardan oluşur?",
+      "a": "Beyin ve omurilik",
+      "b": "Kaslar ve omurga",
+      "c": "Beyin ve sinirler",
+      "d": "Omurga ve sinir düğümleri",
+      "dogru": "a"
+    },
+    {
+      "soru": "Nöronlar arası iletişimi sağlayan yapı hangisidir?",
+      "a": "Miyelin kılıf",
+      "b": "Dendrit",
+      "c": "Akson",
+      "d": "Sinaps",
+      "dogru": "d"
+    },
+    {
+      "soru": "Miyelin kılıfın temel görevi nedir?",
+      "a": "Kas kasılmasını sağlamak",
+      "b": "Hormon salgılamak",
+      "c": "Besin depolamak",
+      "d": "İleti hızını artırmak",
+      "dogru": "d"
+    },
+    {
+      "soru": "Reflekslerin merkezi neresidir?",
+      "a": "Omurga",
+      "b": "Omurilik",
+      "c": "Kas hücresi",
+      "d": "Beyin",
+      "dogru": "b"
+    },
+    {
+      "soru": "Otonom sinir sistemi neyi kontrol eder?",
+      "a": "İç salgı bezlerini",
+      "b": "İskelet kaslarını",
+      "c": "İstem dışı çalışan organları",
+      "d": "Hormon üretimini",
+      "dogru": "c"
+    },
+    {
+      "soru": "Bir nöronda uyartının iletilme yönü nasıldır?",
+      "a": "Gövdeden sinapsta durur",
+      "b": "Sinapstan soma’ya",
+      "c": "Aksondan dendrite",
+      "d": "Dendritten aksona",
+      "dogru": "d"
+    },
+    {
+      "soru": "Parasempatik sistemin etkisi aşağıdakilerden hangisidir?",
+      "a": "Kalp atışını yavaşlatmak",
+      "b": "Sindirimi durdurmak",
+      "c": "Göz bebeklerini büyütmek",
+      "d": "Adrenalin salgılamak",
+      "dogru": "a"
+    },
+    {
+      "soru": "Somatik sinir sistemi aşağıdakilerden hangisini kontrol eder?",
+      "a": "Kalp kaslarını",
+      "b": "Bezleri",
+      "c": "İskelet kaslarını",
+      "d": "Sindirim sistemi kaslarını",
+      "dogru": "c"
+    },
+    {
+      "soru": "Haberleşmenin kimyasal olduğu yer neresidir?",
+      "a": "Nöron gövdesi",
+      "b": "Akson",
+      "c": "Miyelin",
+      "d": "Sinaps boşluğu",
+      "dogru": "d"
+    },
+    {
+      "soru": "Beynin denge ve koordinasyondan sorumlu kısmı hangisidir?",
+      "a": "Talamus",
+      "b": "Beyincik",
+      "c": "Omurilik",
+      "d": "Hipotalamus",
+      "dogru": "b"
+    },
+    {
+      "soru": "Hipotalamusun görevlerinden biri nedir?",
+      "a": "Vücut sıcaklığını düzenlemek",
+      "b": "Görme merkezini yönetmek",
+      "c": "Kas hareketlerini başlatmak",
+      "d": "Kan hücrelerini üretmek",
+      "dogru": "a"
+    },
+    {
+      "soru": "Sinir hücresinin uzantısı olan ve iletiyi uzak bölgelere taşıyan yapı nedir?",
+      "a": "Soma",
+      "b": "Akson",
+      "c": "Nod",
+      "d": "Dendrit",
+      "dogru": "b"
+    },
+    {
+      "soru": "Eyleyici organlar hangileridir?",
+      "a": "Kemikler ve tendonlar",
+      "b": "Sadece kaslar",
+      "c": "Sadece bezler",
+      "d": "Kaslar ve bezler",
+      "dogru": "d"
+    },
+    {
+      "soru": "Duyu nöronlarının görevi nedir?",
+      "a": "Hormonal uyarı sağlamak",
+      "b": "Uyarıyı merkezi sinir sistemine iletmek",
+      "c": "İletiyi beyne iletmek",
+      "d": "Uyarıyı kasa taşımak",
+      "dogru": "b"
+    },
+    {
+      "soru": "Nöronlar çoğalabilir mi?",
+      "a": "Evet, kök hücre ile çoğalır",
+      "b": "Evet, bölünerek çoğalır",
+      "c": "Bazıları yılda bir çoğalır",
+      "d": "Hayır, çoğu mitoz geçirmez",
+      "dogru": "d"
+    },
+    {
+      "soru": "Motor nöronların görevi nedir?",
+      "a": "Uyarıları algılamak",
+      "b": "Kaslara sinyal gönderilmesini engellemek",
+      "c": "Refleksleri durdurmak",
+      "d": "Emirlere göre tepki oluşturmak",
+      "dogru": "d"
+    },
+    {
+      "soru": "Beynin öğrenme ve hafıza ile ilgili bölgesi hangisidir?",
+      "a": "Omurilik",
+      "b": "Talamus",
+      "c": "Hipokampus",
+      "d": "Hipotalamus",
+      "dogru": "c"
+    },
+    {
+      "soru": "Omurilik zedelenmesi neye yol açabilir?",
+      "a": "Yüksek tansiyon",
+      "b": "Mide bulantısı",
+      "c": "Felç",
+      "d": "Baş dönmesi",
+      "dogru": "c"
+    },
+    {
+      "soru": "İstemli hareketleri hangi yapı kontrol eder?",
+      "a": "Beyin kabuğu",
+      "b": "Omurilik",
+      "c": "Hipofiz",
+      "d": "Kas hücresi",
+      "dogru": "a"
+    },
+    {
+      "soru": "Sinir sistemi hücreleri arasında hangisi destek ve beslenme sağlar?",
+      "a": "Glia hücreleri",
+      "b": "Motor nöronlar",
+      "c": "Nodlar",
+      "d": "Dendritler",
+      "dogru": "a"
+    },
+    {
+      "soru": "Sinir sisteminin temel yapı ve görev birimi aşağıdakilerden hangisidir?",
+      "a": "Aksiyon potansiyeli",
+      "b": "Nöron",
+      "c": "Glia hücresi",
+      "d": "Sinaps",
+      "dogru": "b"
+    },
+    {
+      "soru": "Refleks davranışlar hangi sinir sistemi yapısının kontrolündedir?",
+      "a": "Omurilik",
+      "b": "Beyincik",
+      "c": "Hipotalamus",
+      "d": "Beyin kabuğu",
+      "dogru": "a"
+    },
+    {
+      "soru": "Bir nöronda impulsun iletim yönü nasıldır?",
+      "a": "Akson → Dendrit",
+      "b": "Gövde → Dendrit",
+      "c": "Dendrit → Hücre gövdesi → Akson",
+      "d": "Sinaps → Akson → Hücre çekirdeği",
+      "dogru": "c"
+    },
+    {
+      "soru": "Merkezi sinir sistemi hangi yapıları içerir?",
+      "a": "Beyin ve omurilik",
+      "b": "Akson ve dendrit",
+      "c": "Refleks yayı ve sinaps",
+      "d": "Sinir ağı ve omurga",
+      "dogru": "a"
+    },
+    {
+      "soru": "Otonom sinir sistemi aşağıdakilerden hangisini kontrol eder?",
+      "a": "Koşma",
+      "b": "Düşünme",
+      "c": "Kalp atışı",
+      "d": "Konuşma",
+      "dogru": "c"
+    },
+    {
+      "soru": "Sinir hücresinde impuls iletimi sırasında zarın dışına çıkan iyon hangisidir?",
+      "a": "Na⁺",
+      "b": "K⁺",
+      "c": "Cl⁻",
+      "d": "Ca²⁺",
+      "dogru": "b"
+    },
+    {
+      "soru": "Parasempatik sistemin etkisi aşağıdakilerden hangisidir?",
+      "a": "Kalp atımını hızlandırmak",
+      "b": "Sindirim faaliyetini yavaşlatmak",
+      "c": "Göz bebeklerini büyütmek",
+      "d": "Sindirim faaliyetini artırmak",
+      "dogru": "d"
+    },
+    {
+      "soru": "Sempatik sistemin aktif olduğu durum aşağıdakilerden hangisidir?",
+      "a": "Uyku",
+      "b": "Yemek yeme",
+      "c": "Tehlike anı",
+      "d": "Dinlenme",
+      "dogru": "c"
+    },
+    {
+      "soru": "İmpuls iletiminde görevli yapı hangisidir?",
+      "a": "Kloroplast",
+      "b": "Mitokondri",
+      "c": "Sinaps",
+      "d": "Endoplazmik retikulum",
+      "dogru": "c"
+    },
+    {
+      "soru": "Beynin denge ve hareket koordinasyonunu sağlayan kısmı nedir?",
+      "a": "Beyin sapı",
+      "b": "Omurilik",
+      "c": "Beyincik",
+      "d": "Hipotalamus",
+      "dogru": "c"
+    },
+    {
+      "soru": "Beyin sapı hangi temel işlevleri kontrol eder?",
+      "a": "Konuşma ve yazma",
+      "b": "Hormon üretimi",
+      "c": "Solunum ve kalp atışı",
+      "d": "Duyusal algı",
+      "dogru": "c"
+    },
+    {
+      "soru": "Sinapslarda iletişim aşağıdakilerden hangisiyle sağlanır?",
+      "a": "Elektrik akımı",
+      "b": "Kas kasılması",
+      "c": "Hormonlar",
+      "d": "Nörotransmitterler",
+      "dogru": "d"
+    },
+    {
+      "soru": "Duyu nöronları hangi yöne doğru impuls iletir?",
+      "a": "Kaslara",
+      "b": "Merkezi sinir sistemine",
+      "c": "Organlara",
+      "d": "Sinapslara",
+      "dogru": "b"
+    },
+    {
+      "soru": "İmpuls iletimi sırasında zarın dışı pozitif, içi negatif olan durum nedir?",
+      "a": "Depolarizasyon",
+      "b": "Polarizasyon",
+      "c": "Repolarizasyon",
+      "d": "İyon dengesi",
+      "dogru": "b"
+    },
+    {
+      "soru": "Sinir hücrelerinde miyelin kılıfın görevi nedir?",
+      "a": "İyon geçişini sağlamak",
+      "b": "Besin sentezlemek",
+      "c": "İmpuls iletim hızını artırmak",
+      "d": "Hormon salgılamak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Omurilik aşağıdakilerden hangisini yapmaz?",
+      "a": "Refleksleri yönetmek",
+      "b": "Kaslara emir göndermek",
+      "c": "Düşünme",
+      "d": "Bilgi iletmek",
+      "dogru": "c"
+    },
+    {
+      "soru": "Nöronların birbiriyle bağlantı kurduğu yapı nedir?",
+      "a": "Dendrit",
+      "b": "Akson",
+      "c": "Sinaps",
+      "d": "Gövdeleri",
+      "dogru": "c"
+    },
+    {
+      "soru": "Glia hücrelerinin görevi nedir?",
+      "a": "İmpuls iletmek",
+      "b": "Kas kasılmasını sağlamak",
+      "c": "Nöronları desteklemek ve beslemek",
+      "d": "Hormon üretmek",
+      "dogru": "c"
+    },
+    {
+      "soru": "Motor nöronlar hangi yönde impuls iletir?",
+      "a": "Duyu organlarından beyne",
+      "b": "Kaslara ve bezlere",
+      "c": "İç organlara",
+      "d": "Beyinden omuriliğe",
+      "dogru": "b"
+    },
+    {
+      "soru": "İmpuls iletim hızı aşağıdakilerden hangisiyle artar?",
+      "a": "Daha uzun akson",
+      "b": "İnce miyelinsiz akson",
+      "c": "Miyelinli akson",
+      "d": "Glia eksikliği",
+      "dogru": "c"
+    },
+    {
+      "soru": "Beynin istemli hareketleri kontrol eden kısmı nedir?",
+      "a": "Beyin sapı",
+      "b": "Beyin kabuğu",
+      "c": "Beyincik",
+      "d": "Omurilik",
+      "dogru": "b"
+    },
+    {
+      "soru": "Uyku, açlık ve susuzluk gibi olayları düzenleyen beyin bölgesi hangisidir?",
+      "a": "Talamus",
+      "b": "Hipotalamus",
+      "c": "Omurilik",
+      "d": "Beyin sapı",
+      "dogru": "b"
+    },
+    {
+      "soru": "İmpuls iletimi sırasında sodyum iyonları nereye hareket eder?",
+      "a": "Hücre dışına",
+      "b": "Hücre içine",
+      "c": "Sinaps boşluğuna",
+      "d": "Dendrite",
+      "dogru": "b"
+    },
+    {
+      "soru": "Duyu, motor ve ara nöronlar nerede bulunur?",
+      "a": "Sadece beyinde",
+      "b": "Sadece omurilikte",
+      "c": "Çevresel sinir sisteminde",
+      "d": "Sinir sisteminin farklı bölgelerinde",
+      "dogru": "d"
+    },
+    {
+      "soru": "Refleks yayı içinde yer almayan yapı hangisidir?",
+      "a": "Duyu nöronu",
+      "b": "Motor nöron",
+      "c": "Ara nöron",
+      "d": "Miyelin kılıf",
+      "dogru": "d"
+    },
+    {
+      "soru": "Nöronlarda impulsun eşik değeri altında kalması neye yol açar?",
+      "a": "Daha yavaş iletim",
+      "b": "İmpuls oluşmaması",
+      "c": "Ağrı hissi",
+      "d": "İyon dengesizliği",
+      "dogru": "b"
+    },
+    {
+      "soru": "Sinir sisteminin genel görevi nedir?",
+      "a": "Enerji depolamak",
+      "b": "İç salgı bezlerini yönetmek",
+      "c": "Vücudu dış çevreye karşı uyarmak ve yanıt vermek",
+      "d": "Kan üretmek",
+      "dogru": "c"
+    },
+    {
+      "soru": "Beyin sapı hangi üç yapıyı içerir?",
+      "a": "Talamus, hipotalamus, epitalamus",
+      "b": "Omurilik soğanı, pons, orta beyin",
+      "c": "Beyincik, beyin sapı, talamus",
+      "d": "Omurilik, orta beyin, talamus",
+      "dogru": "b"
+    },
+    {
+      "soru": "Omurilikteki gri madde neyi içerir?",
+      "a": "Akson demetlerini",
+      "b": "Kan damarlarını",
+      "c": "Sinapsları ve gövdeleri",
+      "d": "Miyelinli hücreleri",
+      "dogru": "c"
+    },
+    {
+      "soru": "İmpuls iletiminde ara nöronların görevi nedir?",
+      "a": "Hareketi başlatmak",
+      "b": "Duyu alımını artırmak",
+      "c": "İmpulsu analiz edip yönlendirmek",
+      "d": "Hormon üretmek",
+      "dogru": "c"
+    }
+  ],
+  "endokrin": [
+    {
+      "soru": "Hipotalamusun temel görevlerinden biri aşağıdakilerden hangisidir?",
+      "a": "Sindirim enzimlerini üretmek",
+      "b": "Kan şekerini doğrudan düşürmek",
+      "c": "Homeostasiyi düzenlemek",
+      "d": "Kemik iliğinde kan üretimini sağlamak",
+      "dogru": "c"
+    },
+    {
+      "soru": "İnsülin hormonu hangi organ tarafından salgılanır?",
+      "a": "Karaciğer",
+      "b": "Pankreas",
+      "c": "Böbreküstü bezi",
+      "d": "Hipofiz bezi",
+      "dogru": "b"
+    },
+    {
+      "soru": "Büyüme hormonunun aşırı salgılanması yetişkinlerde hangi hastalığa yol açar?",
+      "a": "Cücelik",
+      "b": "Şeker hastalığı",
+      "c": "Guatr",
+      "d": "Akromegali",
+      "dogru": "d"
+    },
+    {
+      "soru": "Tiroit bezinin yetersiz çalışması durumunda ne gözlenir?",
+      "a": "Metabolizma hızında azalma",
+      "b": "Kan basıncında yükselme",
+      "c": "Kan şekerinin artması",
+      "d": "Kas kitlesinde artış",
+      "dogru": "a"
+    },
+    {
+      "soru": "Parathormonun temel görevi aşağıdakilerden hangisidir?",
+      "a": "Vücut sıcaklığını düzenlemek",
+      "b": "Kan kalsiyum düzeyini artırmak",
+      "c": "Protein sentezini hızlandırmak",
+      "d": "Adrenalini salgılamak",
+      "dogru": "b"
+    },
+    {
+      "soru": "Adrenalin hormonunun etkisi aşağıdakilerden hangisidir?",
+      "a": "Uyku düzenini sağlamak",
+      "b": "Kan basıncını düşürmek",
+      "c": "Savaş ya da kaç tepkisini başlatmak",
+      "d": "Kemik gelişimini artırmak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Guatr hastalığı hangi hormonun dengesizliğinden kaynaklanır?",
+      "a": "İnsülin",
+      "b": "Tiroksin",
+      "c": "Kortizol",
+      "d": "Glukagon",
+      "dogru": "b"
+    },
+    {
+      "soru": "Glukagon hormonu hangi etkiyi gösterir?",
+      "a": "Kan şekerini düşürür",
+      "b": "Kas kasılmasını sağlar",
+      "c": "Kan şekerini yükseltir",
+      "d": "Tansiyonu düzenler",
+      "dogru": "c"
+    },
+    {
+      "soru": "Testosteron hormonu hangi bez tarafından salgılanır?",
+      "a": "Hipotalamus",
+      "b": "Adrenal bez",
+      "c": "Testis",
+      "d": "Hipofiz",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kadınlarda östrojen hormonunun salgılanmasından sorumlu yapı hangisidir?",
+      "a": "Pankreas",
+      "b": "Yumurtalık",
+      "c": "Böbreküstü bezi",
+      "d": "Tiroit bezi",
+      "dogru": "b"
+    },
+    {
+      "soru": "Vücudun su dengesini düzenleyen hormon aşağıdakilerden hangisidir?",
+      "a": "ADH",
+      "b": "Tiroksin",
+      "c": "İnsülin",
+      "d": "Kortizol",
+      "dogru": "a"
+    },
+    {
+      "soru": "Kortizol hormonunun temel işlevi nedir?",
+      "a": "Kalsiyum dengesini sağlar",
+      "b": "Strese karşı vücudu hazırlar",
+      "c": "Metabolizma hızını düşürür",
+      "d": "Kan basıncını artırır",
+      "dogru": "b"
+    },
+    {
+      "soru": "Hipofiz bezi hangi yapı tarafından kontrol edilir?",
+      "a": "Talamus",
+      "b": "Beyincik",
+      "c": "Hipotalamus",
+      "d": "Omurilik",
+      "dogru": "c"
+    },
+    {
+      "soru": "Adrenal medulla bölgesi hangi hormonları salgılar?",
+      "a": "Tiroksin ve parathormon",
+      "b": "İnsülin ve glukagon",
+      "c": "Adrenalin ve noradrenalin",
+      "d": "Östrojen ve progesteron",
+      "dogru": "c"
+    },
+    {
+      "soru": "İnsülinin eksikliği hangi hastalığa neden olur?",
+      "a": "Hipotiroit",
+      "b": "Şeker hastalığı",
+      "c": "Guatr",
+      "d": "Akromegali",
+      "dogru": "b"
+    },
+    {
+      "soru": "Endokrin sistemin görevlerinden biri nedir?",
+      "a": "Sinir iletisini artırmak",
+      "b": "Hormon salgılayarak düzenleme yapmak",
+      "c": "Kas hareketlerini sağlamak",
+      "d": "Duyu organlarını korumak",
+      "dogru": "b"
+    },
+    {
+      "soru": "Melatonin hormonu hangi bez tarafından salgılanır?",
+      "a": "Hipofiz",
+      "b": "Epifiz",
+      "c": "Pankreas",
+      "d": "Tiroit",
+      "dogru": "b"
+    },
+    {
+      "soru": "Progesteron hormonu aşağıdakilerden hangisini düzenler?",
+      "a": "Süt üretimi",
+      "b": "Menstruasyon döngüsü",
+      "c": "İskelet kası kasılması",
+      "d": "Vücut sıcaklığı",
+      "dogru": "b"
+    },
+    {
+      "soru": "Hormonlar hedef organa nasıl iletilir?",
+      "a": "Kaslar aracılığıyla",
+      "b": "Kan yoluyla",
+      "c": "Sinir sistemiyle",
+      "d": "Lenf sıvısıyla",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kalsitonin hormonunun görevi nedir?",
+      "a": "Kan şekerini düzenler",
+      "b": "Kalsiyum seviyesini düşürür",
+      "c": "Metabolizmayı hızlandırır",
+      "d": "Tansiyonu artırır",
+      "dogru": "b"
+    },
+    {
+      "soru": "Ergenlik döneminde hormon üretimini etkileyen bez aşağıdakilerden hangisidir?",
+      "a": "Timüs",
+      "b": "Hipofiz",
+      "c": "Pankreas",
+      "d": "Tiroit",
+      "dogru": "b"
+    },
+    {
+      "soru": "Hormonlar hangi hücrelerde etkili olur?",
+      "a": "Tüm hücrelerde",
+      "b": "Kas hücrelerinde",
+      "c": "Hedef hücrelerde",
+      "d": "Sinir hücrelerinde",
+      "dogru": "c"
+    },
+    {
+      "soru": "Timüs bezinin temel işlevi nedir?",
+      "a": "Dolaşımı düzenlemek",
+      "b": "Bağışıklık sistemini desteklemek",
+      "c": "Kan şekerini artırmak",
+      "d": "Metabolizmayı hızlandırmak",
+      "dogru": "b"
+    },
+    {
+      "soru": "Glukagon hormonunun etkisi aşağıdakilerden hangisidir?",
+      "a": "Kas hücrelerini uyarır",
+      "b": "Tansiyonu düşürür",
+      "c": "Karaciğerde glikojen yıkımını sağlar",
+      "d": "Vücuttan su atılmasını sağlar",
+      "dogru": "c"
+    },
+    {
+      "soru": "Hormon salgılayan hücrelere ne ad verilir?",
+      "a": "Duyu hücreleri",
+      "b": "Salgı hücreleri",
+      "c": "Reseptör hücreler",
+      "d": "Endokrin hücreler",
+      "dogru": "d"
+    },
+    {
+      "soru": "Endokrin sistemin temel görevi aşağıdakilerden hangisidir?",
+      "a": "Kan üretmek",
+      "b": "Hormon salgılamak",
+      "c": "Sinir iletimi sağlamak",
+      "d": "Sindirim yapmak",
+      "dogru": "b"
+    },
+    {
+      "soru": "Hipotalamusun temel görevi nedir?",
+      "a": "Kanı filtrelemek",
+      "b": "Kalp ritmini ayarlamak",
+      "c": "Sinir ve endokrin sistemi arasında bağlantı kurmak",
+      "d": "Hareketi kontrol etmek",
+      "dogru": "c"
+    },
+    {
+      "soru": "Adrenal bezler nerede bulunur?",
+      "a": "Tiroidin altında",
+      "b": "Böbreklerin üstünde",
+      "c": "Pankreasın arkasında",
+      "d": "Karaciğerin içinde",
+      "dogru": "b"
+    },
+    {
+      "soru": "İnsülin hormonu hangi organ tarafından salgılanır?",
+      "a": "Karaciğer",
+      "b": "Böbrek",
+      "c": "Tiroid bezi",
+      "d": "Pankreas",
+      "dogru": "d"
+    },
+    {
+      "soru": "Büyüme hormonu hangi bez tarafından salgılanır?",
+      "a": "Tiroid",
+      "b": "Hipofiz",
+      "c": "Böbrek üstü bezi",
+      "d": "Pankreas",
+      "dogru": "b"
+    },
+    {
+      "soru": "Glukagon hormonunun görevi nedir?",
+      "a": "Kan şekerini düşürmek",
+      "b": "Kas kasılmasını sağlamak",
+      "c": "Kan şekerini yükseltmek",
+      "d": "Su emilimini azaltmak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Tiroid bezinin az çalışması hangi duruma yol açar?",
+      "a": "Hipertiroidi",
+      "b": "Hipotiroidi",
+      "c": "Diabet",
+      "d": "Ateroskleroz",
+      "dogru": "b"
+    },
+    {
+      "soru": "Adrenalin hormonunun etkilerinden biri aşağıdakilerden hangisidir?",
+      "a": "Kan şekerini düşürmek",
+      "b": "Kalp atım hızını azaltmak",
+      "c": "Kaslara daha fazla kan gitmesini sağlamak",
+      "d": "Uyku düzenini sağlamak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kan kalsiyum seviyesini düzenleyen hormon hangisidir?",
+      "a": "İnsülin",
+      "b": "Parathormon",
+      "c": "Adrenalin",
+      "d": "Glukagon",
+      "dogru": "b"
+    },
+    {
+      "soru": "ADH hormonunun temel işlevi nedir?",
+      "a": "Kas kasılması",
+      "b": "Su dengesini sağlamak",
+      "c": "İdrar üretimini artırmak",
+      "d": "Şeker üretmek",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kortizol hormonu hangi beze aittir?",
+      "a": "Tiroid",
+      "b": "Hipofiz",
+      "c": "Adrenal (böbrek üstü bezi)",
+      "d": "Timus",
+      "dogru": "c"
+    },
+    {
+      "soru": "Diabetes mellitus hangi hormonun eksikliğinde görülür?",
+      "a": "Tiroksin",
+      "b": "Adrenalin",
+      "c": "İnsülin",
+      "d": "Kortizol",
+      "dogru": "c"
+    },
+    {
+      "soru": "Timus bezinin görevi nedir?",
+      "a": "Büyüme sağlamak",
+      "b": "Kan şekerini düzenlemek",
+      "c": "Bağışıklık hücrelerini olgunlaştırmak",
+      "d": "Adrenalin üretmek",
+      "dogru": "c"
+    },
+    {
+      "soru": "Tiroksin hormonunun eksikliği çocuklarda hangi duruma neden olur?",
+      "a": "Guatr",
+      "b": "Zeka geriliği ve cücelik",
+      "c": "Hiperglisemi",
+      "d": "Hipertansiyon",
+      "dogru": "b"
+    },
+    {
+      "soru": "Oksitosin hormonu aşağıdakilerden hangisini sağlar?",
+      "a": "Süt salgısını artırmak",
+      "b": "Rahim kasılmalarını uyarmak",
+      "c": "Kan basıncını düşürmek",
+      "d": "Kalsiyumu emmek",
+      "dogru": "b"
+    },
+    {
+      "soru": "Hipofiz bezi hangi yapının kontrolündedir?",
+      "a": "Beyincik",
+      "b": "Talamus",
+      "c": "Hipotalamus",
+      "d": "Omurilik",
+      "dogru": "c"
+    },
+    {
+      "soru": "Adrenal bezden salgılanan hormonlardan biri değildir?",
+      "a": "Adrenalin",
+      "b": "Noradrenalin",
+      "c": "Kortizol",
+      "d": "Tiroksin",
+      "dogru": "d"
+    },
+    {
+      "soru": "Tiroid bezinden salgılanan hormonlar aşağıdakilerden hangisidir?",
+      "a": "Adrenalin ve kortizol",
+      "b": "Tiroksin ve kalsitonin",
+      "c": "İnsülin ve glukagon",
+      "d": "FSH ve LH",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kalsitonin hormonunun görevi nedir?",
+      "a": "Kan şekerini düzenlemek",
+      "b": "Kemiklerden kana kalsiyum geçişini sağlamak",
+      "c": "Kandaki kalsiyumu kemiklere yönlendirmek",
+      "d": "Tiroidi uyarmak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Hipofiz bezinden salgılanan ACTH hormonu hangi bezi uyarır?",
+      "a": "Tiroid",
+      "b": "Timus",
+      "c": "Adrenal korteks",
+      "d": "Pankreas",
+      "dogru": "c"
+    },
+    {
+      "soru": "FSH hormonu hangi yapının gelişimini sağlar?",
+      "a": "Tiroid",
+      "b": "Folikül",
+      "c": "Böbrek",
+      "d": "Karaciğer",
+      "dogru": "b"
+    },
+    {
+      "soru": "LH hormonu aşağıdakilerden hangisini uyarır?",
+      "a": "Yumurta oluşumu",
+      "b": "Sperm üretimi",
+      "c": "Ovulasyon (yumurtlama)",
+      "d": "Tiroid bezi",
+      "dogru": "c"
+    },
+    {
+      "soru": "Pankreasın Langerhans adacıklarında bulunan beta hücreleri hangi hormonu salgılar?",
+      "a": "Glukagon",
+      "b": "Tiroksin",
+      "c": "İnsülin",
+      "d": "Kortizol",
+      "dogru": "c"
+    },
+    {
+      "soru": "Bazal metabolizma hızı hangi hormonla düzenlenir?",
+      "a": "Adrenalin",
+      "b": "Tiroksin",
+      "c": "İnsülin",
+      "d": "Kortizol",
+      "dogru": "b"
+    },
+    {
+      "soru": "Endokrin sistemde hormonlar hangi yapılar aracılığıyla hedef organlara ulaşır?",
+      "a": "Sinir hücreleri",
+      "b": "Kılcal damarlar",
+      "c": "Lenf düğümleri",
+      "d": "Kas dokuları",
+      "dogru": "b"
+    }
+  ],
+  "duyuorgan": [
+    {
+      "soru": "Gözde görüntünün oluştuğu yapı aşağıdakilerden hangisidir?",
+      "a": "Kornea",
+      "b": "İris",
+      "c": "Retina",
+      "d": "Göz merceği",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kulakta ses dalgalarının ilk toplandığı yapı hangisidir?",
+      "a": "İç kulak",
+      "b": "Kulak zarı",
+      "c": "Dış kulak yolu",
+      "d": "Kulak kepçesi",
+      "dogru": "d"
+    },
+    {
+      "soru": "Denge ile ilgili yapılar aşağıdaki kulak bölümlerinin hangisindedir?",
+      "a": "Orta kulak",
+      "b": "İç kulak",
+      "c": "Dış kulak",
+      "d": "Kulak zarı",
+      "dogru": "b"
+    },
+    {
+      "soru": "Göz bebeğinin büyüklüğünü ayarlayan yapı hangisidir?",
+      "a": "İris",
+      "b": "Retina",
+      "c": "Sert tabaka",
+      "d": "Göz merceği",
+      "dogru": "a"
+    },
+    {
+      "soru": "Gözdeki çubuk hücrelerin görevi nedir?",
+      "a": "Renkli görmeyi sağlar",
+      "b": "Gece görüşünü sağlar",
+      "c": "Renk ayrımı yapar",
+      "d": "Sıvı üretimini sağlar",
+      "dogru": "b"
+    },
+    {
+      "soru": "Dil üzerinde tat almaçları en çok nerede yoğunlaşmıştır?",
+      "a": "Dilin alt yüzeyinde",
+      "b": "Dilin ortasında",
+      "c": "Dil kökünde",
+      "d": "Papilla adı verilen çıkıntılarda",
+      "dogru": "d"
+    },
+    {
+      "soru": "Aşağıdaki tatlardan hangisi dilin ucunda daha yoğun algılanır?",
+      "a": "Acı",
+      "b": "Tatlı",
+      "c": "Ekşi",
+      "d": "Tuzlu",
+      "dogru": "b"
+    },
+    {
+      "soru": "Koku alma reseptörleri aşağıdaki yapılardan hangisinde yer alır?",
+      "a": "Burun delikleri",
+      "b": "Koku soğancığı",
+      "c": "Nazofarenks",
+      "d": "Burun boşluğunun üst kısmı",
+      "dogru": "d"
+    },
+    {
+      "soru": "Retinada bulunan koni hücrelerinin temel görevi nedir?",
+      "a": "Işık şiddetini algılamak",
+      "b": "Renkli görmeyi sağlamak",
+      "c": "Dengeyi sağlamak",
+      "d": "Netlik ayarını yapmak",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kulaktaki örs kemiği hangi bölümde bulunur?",
+      "a": "İç kulak",
+      "b": "Dış kulak",
+      "c": "Orta kulak",
+      "d": "Kulak kepçesi",
+      "dogru": "c"
+    },
+    {
+      "soru": "Gözdeki korneanın görevi nedir?",
+      "a": "Renk algısını sağlar",
+      "b": "Göz kaslarını yönetir",
+      "c": "Gelen ışığı kırar ve yönlendirir",
+      "d": "Retinaya görüntü gönderir",
+      "dogru": "c"
+    },
+    {
+      "soru": "Gözün saydam tabakası aşağıdakilerden hangisidir?",
+      "a": "İris",
+      "b": "Kornea",
+      "c": "Retina",
+      "d": "Sert tabaka",
+      "dogru": "b"
+    },
+    {
+      "soru": "Tat ve koku duyuları arasında nasıl bir ilişki vardır?",
+      "a": "Birbirinden bağımsız çalışırlar",
+      "b": "Koku tat duyusunu etkilemez",
+      "c": "Koku, tat alma duyusunu destekler",
+      "d": "Sadece acı tat için ilişkilidir",
+      "dogru": "c"
+    },
+    {
+      "soru": "İç kulakta işitme ile ilgili temel yapı aşağıdakilerden hangisidir?",
+      "a": "Çekiç kemiği",
+      "b": "İşitme tüy hücreleri",
+      "c": "Yarım daire kanalları",
+      "d": "Koklea (salyangoz)",
+      "dogru": "d"
+    },
+    {
+      "soru": "Kulaktaki östaki borusunun görevi nedir?",
+      "a": "İşitme sinyalini iletmek",
+      "b": "Kulak kiri üretmek",
+      "c": "Dış kulak yolunu temizlemek",
+      "d": "Basınç dengesini sağlamak",
+      "dogru": "d"
+    },
+    {
+      "soru": "Deride yer alan dokunma reseptörleri hangi yapıdadır?",
+      "a": "Epidermis",
+      "b": "Kıl kökü",
+      "c": "Dermis",
+      "d": "Yağ tabakası",
+      "dogru": "c"
+    },
+    {
+      "soru": "Göz merceği hangi yapılar arasında yer alır?",
+      "a": "Kornea ve iris",
+      "b": "İris ve retina",
+      "c": "İris ve kornea",
+      "d": "İris ve camsı cisim",
+      "dogru": "d"
+    },
+    {
+      "soru": "Dış kulak yolu ne işe yarar?",
+      "a": "Görüntü oluşumunu sağlar",
+      "b": "Işığı yansıtır",
+      "c": "Ses dalgalarını kulak zarına iletir",
+      "d": "Denge sağlar",
+      "dogru": "c"
+    },
+    {
+      "soru": "Tatlı, tuzlu, acı ve ekşi gibi tatları algılayan yapılar hangileridir?",
+      "a": "Tat tomurcukları",
+      "b": "Tat kılları",
+      "c": "Dil epiteli",
+      "d": "Tükürük bezleri",
+      "dogru": "a"
+    },
+    {
+      "soru": "Gözde bulunan camsı sıvının görevi nedir?",
+      "a": "Görüntüyü iletmek",
+      "b": "Göz içi basıncını korumak",
+      "c": "Renk algısını sağlamak",
+      "d": "Kas kasılmasını sağlamak",
+      "dogru": "b"
+    },
+    {
+      "soru": "Renk körlüğü hangi göz yapısının bozulmasıyla ilgilidir?",
+      "a": "Çubuk hücreler",
+      "b": "Kornea",
+      "c": "Koni hücreleri",
+      "d": "Göz merceği",
+      "dogru": "c"
+    },
+    {
+      "soru": "Burnun görevi sadece koku almak mıdır?",
+      "a": "Evet, başka işlevi yoktur",
+      "b": "Hayır, aynı zamanda solunumun ilk aşamasıdır",
+      "c": "Hayır, tat alma sağlar",
+      "d": "Hayır, kan üretimi yapar",
+      "dogru": "b"
+    },
+    {
+      "soru": "Göz merceği aşağıdaki durumlardan hangisinde şekil değiştirir?",
+      "a": "Uyurken",
+      "b": "Farklı uzaklıktaki cisimlere bakarken",
+      "c": "Ses algılanırken",
+      "d": "Tat alınırken",
+      "dogru": "b"
+    },
+    {
+      "soru": "Tat duyusu sinir iletimi ile nereye taşınır?",
+      "a": "Omurilik",
+      "b": "Hipotalamus",
+      "c": "Talamus",
+      "d": "Beyin korteksi",
+      "dogru": "d"
+    },
+    {
+      "soru": "Ciltte sıcaklık duyusunu algılayan yapılar hangisidir?",
+      "a": "Merkel diskleri",
+      "b": "Meissner cisimcikleri",
+      "c": "Ruffini cisimcikleri",
+      "d": "Pacini cisimcikleri",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kulağın işitme işlevinde görevli yapı hangisidir?",
+      "a": "Yarım daire kanalları",
+      "b": "Koklea (salyangoz)",
+      "c": "Östaki borusu",
+      "d": "Kulak kepçesi",
+      "dogru": "b"
+    },
+    {
+      "soru": "Koku reseptörleri hangi sinire bağlıdır?",
+      "a": "Trigeminal sinir",
+      "b": "İşitme siniri",
+      "c": "Koku siniri (olfaktör)",
+      "d": "Optik sinir",
+      "dogru": "c"
+    },
+    {
+      "soru": "Gözde retina tabakasındaki sarı benek ne işe yarar?",
+      "a": "Işık üretir",
+      "b": "En net görüntünün oluştuğu yerdir",
+      "c": "Gözyaşı üretir",
+      "d": "İris kaslarını çalıştırır",
+      "dogru": "b"
+    },
+    {
+      "soru": "Tatlı ve acı tatlar hangi hücrelerle algılanır?",
+      "a": "Tükürük hücreleri",
+      "b": "Tat reseptör hücreleri",
+      "c": "Kas hücreleri",
+      "d": "Mekanik reseptörler",
+      "dogru": "b"
+    },
+    {
+      "soru": "Retinada görüntünün ters oluşmasının nedeni nedir?",
+      "a": "Kornea kırılması",
+      "b": "İris daralması",
+      "c": "Göz merceği kırılması",
+      "d": "Çubukların hatalı çalışması",
+      "dogru": "c"
+    },
+    {
+      "soru": "Gözde görüntünün oluştuğu ve ışığa duyarlı tabaka hangisidir?",
+      "a": "İris",
+      "b": "Kornea",
+      "c": "Retina",
+      "d": "Sklera",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kulakta ses dalgalarının ilk toplandığı yapı hangisidir?",
+      "a": "Çekiç kemiği",
+      "b": "Kulak zarı",
+      "c": "Salyangoz",
+      "d": "Kulak kepçesi",
+      "dogru": "d"
+    },
+    {
+      "soru": "Koku alma reseptörleri nerede bulunur?",
+      "a": "Ağız boşluğunda",
+      "b": "Burun boşluğunun üst kısmında",
+      "c": "Geniz bölgesinde",
+      "d": "Yutakta",
+      "dogru": "b"
+    },
+    {
+      "soru": "Tat alma reseptörleri en yoğun olarak nerede bulunur?",
+      "a": "Damakta",
+      "b": "Yanak içinde",
+      "c": "Dil üstünde",
+      "d": "Gırtlakta",
+      "dogru": "c"
+    },
+    {
+      "soru": "Gözdeki merceğin görevi nedir?",
+      "a": "Gözyaşı üretmek",
+      "b": "Görüntüyü netleştirmek",
+      "c": "Işığı yansıtmak",
+      "d": "Göz küresini korumak",
+      "dogru": "b"
+    },
+    {
+      "soru": "Retinada yer alan ve renkli görmeyi sağlayan hücreler hangisidir?",
+      "a": "Çomak hücreler",
+      "b": "Konik hücreler",
+      "c": "Pigment hücreleri",
+      "d": "Nöronlar",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kulakta dengeyi sağlayan yapı hangisidir?",
+      "a": "Östaki borusu",
+      "b": "Çekiç-kemik zinciri",
+      "c": "Yarım daire kanalları",
+      "d": "Salyangoz",
+      "dogru": "c"
+    },
+    {
+      "soru": "Isı ve basınç gibi dokunma duyularını algılayan reseptörler nerede bulunur?",
+      "a": "Gözde",
+      "b": "Deride",
+      "c": "Böbrekte",
+      "d": "Kaslarda",
+      "dogru": "b"
+    },
+    {
+      "soru": "Karanlık ortamda görmeyi sağlayan retina hücreleri hangileridir?",
+      "a": "Koniler",
+      "b": "Pigment hücreleri",
+      "c": "Çomak hücreleri",
+      "d": "Gangliyon hücreleri",
+      "dogru": "c"
+    },
+    {
+      "soru": "Tat alma duyusunu etkileyen faktörlerden biri değildir?",
+      "a": "Koku alma",
+      "b": "Tükürük miktarı",
+      "c": "Besinin sıcaklığı",
+      "d": "Kulak basıncı",
+      "dogru": "d"
+    },
+    {
+      "soru": "Östaki borusunun görevi nedir?",
+      "a": "Sesin algılanması",
+      "b": "Basınç dengesini sağlamak",
+      "c": "Denge sağlamak",
+      "d": "Salyangozu korumak",
+      "dogru": "b"
+    },
+    {
+      "soru": "Göz uyumu (akomodasyon) hangi yapı sayesinde sağlanır?",
+      "a": "Kornea",
+      "b": "Retina",
+      "c": "Mercek",
+      "d": "Sklera",
+      "dogru": "c"
+    },
+    {
+      "soru": "Ciltteki dokunma reseptörleri aşağıdakilerden hangisidir?",
+      "a": "Meissner cisimcikleri",
+      "b": "Koniler",
+      "c": "Bastonlar",
+      "d": "Nefronlar",
+      "dogru": "a"
+    },
+    {
+      "soru": "Salyangozdaki reseptör hücreleri hangi uyarıya duyarlıdır?",
+      "a": "Basınç",
+      "b": "Kimyasal madde",
+      "c": "Işık",
+      "d": "Ses dalgaları",
+      "dogru": "d"
+    },
+    {
+      "soru": "Burunda koku sinyalleri beyne hangi sinirle taşınır?",
+      "a": "Optik sinir",
+      "b": "Olfaktör sinir",
+      "c": "Akustik sinir",
+      "d": "Talamus siniri",
+      "dogru": "b"
+    },
+    {
+      "soru": "Tat alma reseptörleri hangi maddeye duyarlıdır?",
+      "a": "Işık",
+      "b": "Kimyasal",
+      "c": "Basınç",
+      "d": "Isı",
+      "dogru": "b"
+    },
+    {
+      "soru": "Gözde görüntünün beyne iletilmesini sağlayan yapı nedir?",
+      "a": "İris",
+      "b": "Göz merceği",
+      "c": "Optik sinir",
+      "d": "Kornea",
+      "dogru": "c"
+    },
+    {
+      "soru": "Derideki en fazla bulunan duyu reseptörü hangisidir?",
+      "a": "Tat reseptörü",
+      "b": "Koku reseptörü",
+      "c": "Basınç ve sıcaklık reseptörleri",
+      "d": "Denge reseptörleri",
+      "dogru": "c"
+    },
+    {
+      "soru": "Göz bebeğinin büyüklüğünü ayarlayan yapı hangisidir?",
+      "a": "Mercek",
+      "b": "Kornea",
+      "c": "Retina",
+      "d": "İris",
+      "dogru": "d"
+    },
+    {
+      "soru": "Sert tabaka (sklera) gözde ne işe yarar?",
+      "a": "Işığı kırar",
+      "b": "Gözün şeklini korur",
+      "c": "Görme sağlar",
+      "d": "Sinir taşır",
+      "dogru": "b"
+    }
+  ],
+  "destekhareket": [
+    {
+      "soru": "İnsan iskeletinde bulunan kemikler hangi iki ana gruba ayrılır?",
+      "a": "Sert ve süngerimsi",
+      "b": "Kafatası ve omurga",
+      "c": "Eksenel ve üyeler",
+      "d": "Kol ve bacak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kıkırdak dokunun özelliği aşağıdakilerden hangisidir?",
+      "a": "Kan damarı içermez",
+      "b": "Kemik kadar serttir",
+      "c": "Kas hücrelerinden oluşur",
+      "d": "Sinir uyarılarını iletir",
+      "dogru": "a"
+    },
+    {
+      "soru": "Sarı kemik iliğinin temel görevi nedir?",
+      "a": "Kan hücrelerini üretmek",
+      "b": "Enerji depolamak",
+      "c": "Kemik sertliğini sağlamak",
+      "d": "Kasları kasmak",
+      "dogru": "b"
+    },
+    {
+      "soru": "Omurgalı canlıların iskelet sisteminde kaç çeşit eklem bulunur?",
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4",
+      "dogru": "c"
+    },
+    {
+      "soru": "Oynar eklemlerde kemiklerin uçlarını örten yapı nedir?",
+      "a": "Bağ doku",
+      "b": "Kas lifi",
+      "c": "Sert kemik",
+      "d": "Eklem kıkırdağı",
+      "dogru": "d"
+    },
+    {
+      "soru": "Kasların kemiğe bağlandığı yapıya ne ad verilir?",
+      "a": "Ligament",
+      "b": "Kıkırdak",
+      "c": "Tendon",
+      "d": "Disk",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kemiklerin uzunlamasına büyümesini sağlayan yapı nedir?",
+      "a": "Kıkırdak disk",
+      "b": "Epifiz plağı",
+      "c": "Periost",
+      "d": "Kemik iliği",
+      "dogru": "b"
+    },
+    {
+      "soru": "Düz kasların özelliği nedir?",
+      "a": "İstemli çalışırlar",
+      "b": "Hızlı ve yorulurlar",
+      "c": "Çizgili yapıdadırlar",
+      "d": "İç organlarda bulunurlar",
+      "dogru": "d"
+    },
+    {
+      "soru": "İskelet kaslarında kasılma birimine ne ad verilir?",
+      "a": "Miyofibril",
+      "b": "Sarkomer",
+      "c": "Tendon",
+      "d": "Aktin",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kemik zarının (periost) görevi nedir?",
+      "a": "Kemik iliği üretmek",
+      "b": "Kas kasılmasını sağlamak",
+      "c": "Kemiği beslemek ve onarmak",
+      "d": "Kıkırdak üretmek",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kafatası kemikleri arasındaki bağlantılar hangi tür eklemle yapılır?",
+      "a": "Yarı oynar eklem",
+      "b": "Oynar eklem",
+      "c": "Oynamaz eklem",
+      "d": "Diskli eklem",
+      "dogru": "c"
+    },
+    {
+      "soru": "Çizgili kaslar hangi uyarıyla çalışır?",
+      "a": "Otomatik",
+      "b": "İstemsiz",
+      "c": "İstemli",
+      "d": "Hormonal",
+      "dogru": "c"
+    },
+    {
+      "soru": "Bir kasın kasılmasını başlatan temel olay nedir?",
+      "a": "Hormon salgısı",
+      "b": "Kıkırdak uyarısı",
+      "c": "Sinirsel impuls",
+      "d": "Kemik teması",
+      "dogru": "c"
+    },
+    {
+      "soru": "İnsan vücudunda en büyük kemik hangisidir?",
+      "a": "Kaval kemiği",
+      "b": "Uyluk kemiği",
+      "c": "Kürek kemiği",
+      "d": "Kalça kemiği",
+      "dogru": "b"
+    },
+    {
+      "soru": "İskelet sisteminde destek ve koruma işlevi öncelikle hangi doku tarafından sağlanır?",
+      "a": "Kas dokusu",
+      "b": "Sinir dokusu",
+      "c": "Bağ doku",
+      "d": "Kemik doku",
+      "dogru": "d"
+    },
+    {
+      "soru": "Omurlar arasındaki disklerin görevi nedir?",
+      "a": "Sinir iletimi sağlamak",
+      "b": "Kıkırdak üretmek",
+      "c": "Şok emici görev yapmak",
+      "d": "Kas bağlamak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kas kasılması sırasında aşağıdakilerden hangisi kısalır?",
+      "a": "Aktin",
+      "b": "Miyozin",
+      "c": "Sarkomer",
+      "d": "Tendon",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kas kasılması için gerekli olan enerji kaynağı nedir?",
+      "a": "Oksijen",
+      "b": "Glikojen",
+      "c": "ATP",
+      "d": "Protein",
+      "dogru": "c"
+    },
+    {
+      "soru": "Yassı kemiklere örnek olarak hangisi verilebilir?",
+      "a": "Uyluk kemiği",
+      "b": "Kafatası kemiği",
+      "c": "Parmak kemiği",
+      "d": "Omur kemiği",
+      "dogru": "b"
+    },
+    {
+      "soru": "Eklem sıvısının işlevi nedir?",
+      "a": "Kemik üretimi",
+      "b": "Kemikleri kayganlaştırmak",
+      "c": "Kas kasılmasını sağlamak",
+      "d": "Sinir iletimini artırmak",
+      "dogru": "b"
+    },
+    {
+      "soru": "Bir kemiğin dıştan içe doğru sıralaması nasıldır?",
+      "a": "Periost - Sünger doku - Sert doku",
+      "b": "Sert doku - Sünger doku - Periost",
+      "c": "Periost - Sert doku - Sünger doku",
+      "d": "Sünger doku - Periost - Sert doku",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kaslar kasıldığında ne gerçekleşir?",
+      "a": "Uzama",
+      "b": "Sıcaklık artışı",
+      "c": "Glikoz üretimi",
+      "d": "Kan üretimi",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kısa kemiklerin temel işlevi nedir?",
+      "a": "Hareket",
+      "b": "Destek",
+      "c": "Esneklik ve denge",
+      "d": "Beslenme",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kasların kasılması sırasında görev yapan proteinler hangileridir?",
+      "a": "Keratin ve kollajen",
+      "b": "Miyozin ve aktin",
+      "c": "Elastin ve fibrin",
+      "d": "Tropomiyozin ve melanin",
+      "dogru": "b"
+    },
+    {
+      "soru": "Omurgalıların iskeleti aşağıdaki dokulardan hangisinden oluşur?",
+      "a": "Kıkırdak ve kemik doku",
+      "b": "Kas ve bağ doku",
+      "c": "Epitel ve sinir doku",
+      "d": "Kas ve yağ doku",
+      "dogru": "a"
+    },
+    {
+      "soru": "Kasların yorulmasının temel nedeni nedir?",
+      "a": "Su kaybı",
+      "b": "Glukoz fazlalığı",
+      "c": "Laktik asit birikimi",
+      "d": "Karbonhidrat eksikliği",
+      "dogru": "c"
+    },
+    {
+      "soru": "Bir kasın kasılması sırasında hangisi olmaz?",
+      "a": "ATP harcanması",
+      "b": "Sarkomerin kısalması",
+      "c": "Kanın hızlanması",
+      "d": "Kemik uzaması",
+      "dogru": "d"
+    },
+    {
+      "soru": "Periost zarar gördüğünde hangi olay zorlaşır?",
+      "a": "Kas kasılması",
+      "b": "Kemik onarımı",
+      "c": "Sinir iletimi",
+      "d": "Duyu algılanması",
+      "dogru": "b"
+    },
+    {
+      "soru": "Omurgadaki kıvrımların amacı nedir?",
+      "a": "Kırılmayı engellemek",
+      "b": "Duruşu estetik kılmak",
+      "c": "Vücut ağırlığını eşit dağıtmak",
+      "d": "Kas üretimini artırmak",
+      "dogru": "c"
+    },
+    {
+      "soru": "İnsan iskelet sistemi hangi dokudan oluşur?",
+      "a": "Bağ doku",
+      "b": "Kas doku",
+      "c": "Kıkırdak ve kemik doku",
+      "d": "Sinir doku",
+      "dogru": "c"
+    },
+    {
+      "soru": "Uzun kemiklerin boyuna büyümesini sağlayan yapı hangisidir?",
+      "a": "Sarı kemik iliği",
+      "b": "Periost",
+      "c": "Epifiz plağı",
+      "d": "Havers kanalı",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kas kasılması sırasında hangi iyonun artışı kasılmayı başlatır?",
+      "a": "Sodyum",
+      "b": "Kalsiyum",
+      "c": "Potasyum",
+      "d": "Magnezyum",
+      "dogru": "b"
+    },
+    {
+      "soru": "Erişkin bir bireyde kırmızı kemik iliği nerede bulunur?",
+      "a": "Uzun kemiklerin ortasında",
+      "b": "Kafatası kemiklerinde",
+      "c": "Kıkırdak doku içinde",
+      "d": "Periost tabakasında",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kemik dokunun sertliğini sağlayan mineral hangisidir?",
+      "a": "Demir",
+      "b": "Kalsiyum fosfat",
+      "c": "Magnezyum",
+      "d": "Sodyum klorür",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kıkırdak dokuda kan damarı bulunmamasının sonucu nedir?",
+      "a": "Yavaş iyileşir",
+      "b": "Kasla bağlantısı azalır",
+      "c": "Kolay esner",
+      "d": "Kan hücresi üretir",
+      "dogru": "a"
+    },
+    {
+      "soru": "İskelet kaslarının kemiklere bağlandığı yapılar nedir?",
+      "a": "Ligament",
+      "b": "Kıkırdak",
+      "c": "Tendon",
+      "d": "Disk",
+      "dogru": "c"
+    },
+    {
+      "soru": "İki kemiği birbirine bağlayan bağ dokulara ne ad verilir?",
+      "a": "Tendon",
+      "b": "Ligament",
+      "c": "Kas demeti",
+      "d": "Periost",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kaslarda enerji üretimi sırasında hangi molekül kullanılır?",
+      "a": "Glikojen",
+      "b": "ATP",
+      "c": "DNA",
+      "d": "RNA",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kas kasılması sırasında hangisi kısalır?",
+      "a": "Aktin",
+      "b": "Miyozin",
+      "c": "Sarkomer",
+      "d": "Tropomiyozin",
+      "dogru": "c"
+    },
+    {
+      "soru": "İskelet kaslarında bulunan en küçük kas birimi nedir?",
+      "a": "Kas lifi",
+      "b": "Miyofibril",
+      "c": "Sarkomer",
+      "d": "Miyofilament",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kemiklerin dış yüzeyini saran bağ doku tabakası hangisidir?",
+      "a": "Süngerimsi doku",
+      "b": "Kompakt doku",
+      "c": "Periost",
+      "d": "Epifiz plağı",
+      "dogru": "c"
+    },
+    {
+      "soru": "Hangi kas çeşidi hem çizgili yapıdadır hem de istemsiz çalışır?",
+      "a": "Düz kas",
+      "b": "İskelet kası",
+      "c": "Kalp kası",
+      "d": "Mide kası",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kırmızı kemik iliğinin görevi nedir?",
+      "a": "Kas hücresi üretmek",
+      "b": "Enerji depolamak",
+      "c": "Kan hücresi üretmek",
+      "d": "Kemik uzamasını sağlamak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kas kasılması sırasında hangisi harcanır?",
+      "a": "Protein",
+      "b": "ATP",
+      "c": "DNA",
+      "d": "Vitamin",
+      "dogru": "b"
+    },
+    {
+      "soru": "Düz kasların özelliklerinden biri aşağıdakilerden hangisidir?",
+      "a": "Çizgili yapı",
+      "b": "İstemli çalışır",
+      "c": "Yavaş ama uzun süreli kasılır",
+      "d": "Çabuk yorulur",
+      "dogru": "c"
+    },
+    {
+      "soru": "İskelet sistemi hangi görevi yapmaz?",
+      "a": "Vücuda şekil vermek",
+      "b": "Organları korumak",
+      "c": "Kaslara enerji üretmek",
+      "d": "Hareketi sağlamak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Omurlar arasında bulunan yapılar nedir?",
+      "a": "Tendon",
+      "b": "Disk",
+      "c": "Ligament",
+      "d": "Eklem",
+      "dogru": "b"
+    },
+    {
+      "soru": "Bir kemiğin ucunda bulunan süngerimsi yapı hangisidir?",
+      "a": "Epifiz",
+      "b": "Diafiz",
+      "c": "Periost",
+      "d": "Havers kanalı",
+      "dogru": "a"
+    },
+    {
+      "soru": "Osteosit hücrelerinin görevi nedir?",
+      "a": "Kan hücresi üretmek",
+      "b": "Kas kasılmasını sağlamak",
+      "c": "Kemik dokuyu oluşturmak ve onarmak",
+      "d": "Kıkırdak üretmek",
+      "dogru": "c"
+    },
+    {
+      "soru": "Eklemlerin hareket derecesi neye göre belirlenir?",
+      "a": "Kemik şekline",
+      "b": "Kas kalınlığına",
+      "c": "Bağ doku miktarına",
+      "d": "Eklem türüne",
+      "dogru": "d"
+    }
+  ],
+  "dolasim": [
+    {
+      "soru": "İnsan kalbinde temiz ve kirli kanın birbirine karışmaması ne ile sağlanır?",
+      "a": "Kulakçıklar",
+      "b": "Kapakçıklar",
+      "c": "Karıncıklar",
+      "d": "Kalp kası",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kanın kalpten vücuda dağıtılmasında görevli damar hangisidir?",
+      "a": "Aort",
+      "b": "Pulmoner ven",
+      "c": "Vena cava",
+      "d": "Koroner damar",
+      "dogru": "a"
+    },
+    {
+      "soru": "Pulmoner arterin diğer arterlerden farkı nedir?",
+      "a": "Kirli kan taşıması",
+      "b": "Kalpten çıkmaması",
+      "c": "Kapakçık içermemesi",
+      "d": "Dolaşıma katılmaması",
+      "dogru": "a"
+    },
+    {
+      "soru": "Kan plazmasında en fazla bulunan madde nedir?",
+      "a": "Protein",
+      "b": "Oksijen",
+      "c": "Su",
+      "d": "Karbon dioksit",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kalbin kasılıp gevşeme hareketine ne ad verilir?",
+      "a": "Peristaltik hareket",
+      "b": "Sistol-diyastol",
+      "c": "Refleks",
+      "d": "Depolarizasyon",
+      "dogru": "b"
+    },
+    {
+      "soru": "Hangi kan hücresi bağışıklıkta görevlidir?",
+      "a": "Alyuvar",
+      "b": "Trombosit",
+      "c": "Akyuvar",
+      "d": "Eritrosit",
+      "dogru": "c"
+    },
+    {
+      "soru": "Atardamarların genel özelliği nedir?",
+      "a": "Kalbe kan taşır",
+      "b": "Kılcal damarlarla bağlantısı yoktur",
+      "c": "Kanı kalpten uzaklaştırır",
+      "d": "Kapakçık bulundurur",
+      "dogru": "c"
+    },
+    {
+      "soru": "Büyük kan dolaşımında kan kalpten nereye gider?",
+      "a": "Akciğerlere",
+      "b": "Karaciğere",
+      "c": "Vücut dokularına",
+      "d": "Sağ kulakçığa",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kılcal damarların temel işlevi nedir?",
+      "a": "Kanı kalbe taşımak",
+      "b": "Gaz ve madde alışverişi",
+      "c": "Pıhtılaşmayı sağlamak",
+      "d": "Kan basıncını düzenlemek",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kalbin kendi kaslarına besin ve oksijen sağlayan damarlar hangisidir?",
+      "a": "Aort",
+      "b": "Pulmoner ven",
+      "c": "Koroner damarlar",
+      "d": "Kılcal damarlar",
+      "dogru": "c"
+    },
+    {
+      "soru": "Hangi hücre tipi oksijen taşır?",
+      "a": "Akyuvar",
+      "b": "Trombosit",
+      "c": "Alyuvar",
+      "d": "Plazma hücresi",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kan basıncı en yüksek olduğu damar hangisidir?",
+      "a": "Aort",
+      "b": "Toplardamar",
+      "c": "Pulmoner ven",
+      "d": "Kılcal damar",
+      "dogru": "a"
+    },
+    {
+      "soru": "Kalp kasının kasılmasını başlatan yapı hangisidir?",
+      "a": "SA düğümü",
+      "b": "AV düğümü",
+      "c": "His demeti",
+      "d": "Purkinje lifleri",
+      "dogru": "a"
+    },
+    {
+      "soru": "Toplardamarlarda kanın geri kaçmasını önleyen yapı nedir?",
+      "a": "Kapakçık",
+      "b": "Çeper",
+      "c": "Kılcal damarlar",
+      "d": "Elastik lifler",
+      "dogru": "a"
+    },
+    {
+      "soru": "Alyuvarların görevi nedir?",
+      "a": "Pıhtılaşmayı sağlamak",
+      "b": "Oksijen ve karbondioksit taşımak",
+      "c": "Bağışıklık sağlamak",
+      "d": "Hormon taşımak",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kan dolaşımında görevli organlar nelerdir?",
+      "a": "Kalp, akciğer, mide",
+      "b": "Kalp, damarlar, kan",
+      "c": "Karaciğer, ince bağırsak, kalp",
+      "d": "Böbrek, dalak, karın",
+      "dogru": "b"
+    },
+    {
+      "soru": "Hangisi küçük kan dolaşımının başlangıç noktasıdır?",
+      "a": "Sol karıncık",
+      "b": "Sağ karıncık",
+      "c": "Sol kulakçık",
+      "d": "Sağ kulakçık",
+      "dogru": "b"
+    },
+    {
+      "soru": "Akciğer toplardamarı hangi özelliğiyle dikkat çeker?",
+      "a": "Kirli kan taşır",
+      "b": "Temiz kan taşır",
+      "c": "Kalpten çıkar",
+      "d": "Kapakçık içermez",
+      "dogru": "b"
+    },
+    {
+      "soru": "Hangi kan hücresi pıhtılaşmada rol alır?",
+      "a": "Eritrosit",
+      "b": "Lökosit",
+      "c": "Trombosit",
+      "d": "Monosit",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kalbin dört odacığı arasında aşağıdaki yapılardan hangisi bulunur?",
+      "a": "Kapakçık",
+      "b": "Kılcal damar",
+      "c": "Aort",
+      "d": "Trake",
+      "dogru": "a"
+    },
+    {
+      "soru": "Kalbin dışını saran zarın adı nedir?",
+      "a": "Myokard",
+      "b": "Perikard",
+      "c": "Endokard",
+      "d": "Epikard",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kalbin sağ tarafı hangi kanı taşır?",
+      "a": "Temiz kan",
+      "b": "Karbondioksitli kan",
+      "c": "Oksijenli kan",
+      "d": "Besin yönünden zengin kan",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kan hacminin büyük kısmını ne oluşturur?",
+      "a": "Hücreler",
+      "b": "Plazma",
+      "c": "Protein",
+      "d": "Vitamin",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kalbin besin ve oksijen ihtiyacı hangi damarlarla karşılanır?",
+      "a": "Koroner arter",
+      "b": "Aort",
+      "c": "Pulmoner ven",
+      "d": "Toplardamar",
+      "dogru": "a"
+    },
+    {
+      "soru": "Kanın vücutta tek yönlü akmasını sağlayan yapı nedir?",
+      "a": "Kapakçık",
+      "b": "Kas tabakası",
+      "c": "Kılcal damar",
+      "d": "Sinirler",
+      "dogru": "a"
+    },
+    {
+      "soru": "En küçük damarlar hangileridir?",
+      "a": "Toplardamar",
+      "b": "Atardamar",
+      "c": "Kılcal damar",
+      "d": "Lenf damarları",
+      "dogru": "c"
+    },
+    {
+      "soru": "Lenf sistemi ile dolaşım sistemi arasında hangi ortak görev vardır?",
+      "a": "Oksijen taşımak",
+      "b": "Doku sıvısını geri toplamak",
+      "c": "Sindirim yapmak",
+      "d": "Hormon salgılamak",
+      "dogru": "b"
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi kalbin görevlerinden biri değildir?",
+      "a": "Kanı pompalar",
+      "b": "Dolaşımı başlatır",
+      "c": "Solunumu kontrol eder",
+      "d": "Oksijenli kanı vücuda iletir",
+      "dogru": "c"
+    },
+    {
+      "soru": "Oksijenli kan kalbin hangi bölümünden çıkar?",
+      "a": "Sağ karıncık",
+      "b": "Sol karıncık",
+      "c": "Sol kulakçık",
+      "d": "Sağ kulakçık",
+      "dogru": "b"
+    },
+    {
+      "soru": "Vücutta pH dengesinin korunmasına katkı sağlayan sistem hangisidir?",
+      "a": "Sindirim",
+      "b": "Dolaşım",
+      "c": "Sinir",
+      "d": "Boşaltım",
+      "dogru": "b"
+    },
+    {
+      "soru": "İnsan kalbinde temiz kan taşıyan damar aşağıdakilerden hangisidir?",
+      "a": "Pulmoner arter",
+      "b": "Aort",
+      "c": "Vena kava",
+      "d": "Kapiller damar",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kalbin kasılmasını başlatan doğal ritim merkezi nedir?",
+      "a": "AV düğüm",
+      "b": "Purkinje lifleri",
+      "c": "SA düğüm",
+      "d": "Hisset demeti",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kanın vücuda dağıtıldığı büyük damar aşağıdakilerden hangisidir?",
+      "a": "Aort",
+      "b": "Vena kava",
+      "c": "Pulmoner ven",
+      "d": "Kapiller damar",
+      "dogru": "a"
+    },
+    {
+      "soru": "İnsan kalbi kaç odacıktan oluşur?",
+      "a": "2",
+      "b": "3",
+      "c": "4",
+      "d": "5",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kanın akciğerlere taşındığı damar aşağıdakilerden hangisidir?",
+      "a": "Aort",
+      "b": "Pulmoner arter",
+      "c": "Pulmoner ven",
+      "d": "Vena kava",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kanın kalpten vücuda pompalanmasını sağlayan kalp bölgesi nedir?",
+      "a": "Sol kulakçık",
+      "b": "Sağ kulakçık",
+      "c": "Sol karıncık",
+      "d": "Sağ karıncık",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kalbin çalışmasını doğrudan kontrol eden yapı aşağıdakilerden hangisidir?",
+      "a": "Hipotalamus",
+      "b": "SA düğüm",
+      "c": "Omurilik",
+      "d": "Adrenalin",
+      "dogru": "b"
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi alyuvarın görevidir?",
+      "a": "Savunma",
+      "b": "Pıhtılaşma",
+      "c": "Oksijen taşıma",
+      "d": "Hormon üretimi",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kan pıhtılaşmasında görev alan hücreler hangisidir?",
+      "a": "Akyuvar",
+      "b": "Trombosit",
+      "c": "Alyuvar",
+      "d": "Monosit",
+      "dogru": "b"
+    },
+    {
+      "soru": "Lenf damarları hangi maddeleri taşır?",
+      "a": "Oksijen",
+      "b": "Karbonhidrat",
+      "c": "Yağ asitleri",
+      "d": "Karbon dioksit",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kapiller damarlar hangi görevle ilişkilidir?",
+      "a": "Hızlı kan akışı",
+      "b": "Kan basıncını artırma",
+      "c": "Madde alışverişi",
+      "d": "Kalp atımını kontrol etme",
+      "dogru": "c"
+    },
+    {
+      "soru": "Pıhtılaşmayı sağlayan protein nedir?",
+      "a": "Hemoglobin",
+      "b": "Antikor",
+      "c": "Fibrinojen",
+      "d": "Globulin",
+      "dogru": "c"
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi büyük dolaşımın başlangıç noktasıdır?",
+      "a": "Sol kulakçık",
+      "b": "Sağ karıncık",
+      "c": "Sol karıncık",
+      "d": "Sağ kulakçık",
+      "dogru": "c"
+    },
+    {
+      "soru": "Beyne oksijenli kan taşıyan damar aşağıdakilerden hangisidir?",
+      "a": "Jugular ven",
+      "b": "Karotid arter",
+      "c": "Pulmoner ven",
+      "d": "Aort",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kalbin beslenmesini sağlayan damarlar hangileridir?",
+      "a": "Koroner damarlar",
+      "b": "Karotid damarlar",
+      "c": "Pulmoner damarlar",
+      "d": "Aort damarları",
+      "dogru": "a"
+    },
+    {
+      "soru": "Akyuvarların görevi nedir?",
+      "a": "Oksijen taşımak",
+      "b": "Pıhtılaşma sağlamak",
+      "c": "Savunma yapmak",
+      "d": "Hormon üretmek",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kanın yapısında en fazla bulunan hücre hangisidir?",
+      "a": "Akyuvar",
+      "b": "Trombosit",
+      "c": "Alyuvar",
+      "d": "Plazma",
+      "dogru": "c"
+    },
+    {
+      "soru": "Pulmoner venin özelliği nedir?",
+      "a": "Kirli kan taşır",
+      "b": "Temiz kan taşır",
+      "c": "Lenf taşır",
+      "d": "Basınç iletimini sağlar",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kalpteki kapakçıkların görevi nedir?",
+      "a": "Kan üretimi",
+      "b": "Hormon salgılamak",
+      "c": "Kan akışını tek yönlü sağlamak",
+      "d": "Nabzı kontrol etmek",
+      "dogru": "c"
+    },
+    {
+      "soru": "İnsanlarda dolaşım sistemi kaç çeşit damardan oluşur?",
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4",
+      "dogru": "c"
+    }
+  ],
+  "sindirim": [
+    {
+      "soru": "Sindirim sisteminde enzimlerin üretildiği ilk organ hangisidir?",
+      "a": "Mide",
+      "b": "Ağız",
+      "c": "Pankreas",
+      "d": "İnce bağırsak",
+      "dogru": "b"
+    },
+    {
+      "soru": "Proteinlerin kimyasal sindirimi ilk kez nerede başlar?",
+      "a": "Ağız",
+      "b": "Mide",
+      "c": "İnce bağırsak",
+      "d": "Kalın bağırsak",
+      "dogru": "b"
+    },
+    {
+      "soru": "Aşağıdaki organlardan hangisi sindirim enzimi üretmez?",
+      "a": "Ağız",
+      "b": "Mide",
+      "c": "Safra kesesi",
+      "d": "Pankreas",
+      "dogru": "c"
+    },
+    {
+      "soru": "Karbonhidratların kimyasal sindirimi nerede başlar?",
+      "a": "Mide",
+      "b": "İnce bağırsak",
+      "c": "Ağız",
+      "d": "Kalın bağırsak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Safranın temel görevi nedir?",
+      "a": "Protein sindirimine yardımcı olmak",
+      "b": "Yağları kimyasal olarak sindirmek",
+      "c": "Yağları fiziksel olarak parçalamak",
+      "d": "Amino asit üretmek",
+      "dogru": "c"
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi mekanik sindirime örnektir?",
+      "a": "Mide asidinin etkisi",
+      "b": "Pankreas enzimlerinin etkisi",
+      "c": "Dişlerle çiğneme",
+      "d": "Safranın yağları emülsifiye etmesi",
+      "dogru": "c"
+    },
+    {
+      "soru": "Pankreasın ürettiği enzimlerden hangisi protein sindiriminde görev alır?",
+      "a": "Amilaz",
+      "b": "Tripsin",
+      "c": "Lipaz",
+      "d": "Maltaz",
+      "dogru": "b"
+    },
+    {
+      "soru": "Mide asidinin pH değeri genellikle kaç civarındadır?",
+      "a": "9",
+      "b": "7",
+      "c": "2",
+      "d": "5",
+      "dogru": "c"
+    },
+    {
+      "soru": "İnce bağırsakta sindirilen besinler nereye emilir?",
+      "a": "Kalın bağırsak",
+      "b": "Kan ve lenf",
+      "c": "Mide",
+      "d": "Karaciğer",
+      "dogru": "b"
+    },
+    {
+      "soru": "Besinlerin kana geçmeden önceki en küçük yapı taşları aşağıdakilerden hangisidir?",
+      "a": "Protein",
+      "b": "Polisakkarit",
+      "c": "Monomer",
+      "d": "Vitamin",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kalın bağırsağın temel görevi nedir?",
+      "a": "Besinlerin sindirilmesi",
+      "b": "Proteinlerin emilimi",
+      "c": "Su ve mineral emilimi",
+      "d": "Yağların sindirimi",
+      "dogru": "c"
+    },
+    {
+      "soru": "Hangi yapı ince bağırsakta emilim yüzeyini artırır?",
+      "a": "Mikrovillus",
+      "b": "Mide zarı",
+      "c": "Pankreas kanalı",
+      "d": "Safra kesesi",
+      "dogru": "a"
+    },
+    {
+      "soru": "Karaciğerin sindirimdeki rolü nedir?",
+      "a": "Amilaz üretmek",
+      "b": "Yağları sindirmek",
+      "c": "Safra üretmek",
+      "d": "Mide asidi üretmek",
+      "dogru": "c"
+    },
+    {
+      "soru": "Mide tarafından salgılanan enzim aşağıdakilerden hangisidir?",
+      "a": "Pepsin",
+      "b": "Amilaz",
+      "c": "Maltaz",
+      "d": "Lipaz",
+      "dogru": "a"
+    },
+    {
+      "soru": "Sindirim kanalının en uzun bölümü hangisidir?",
+      "a": "Ağız",
+      "b": "Mide",
+      "c": "İnce bağırsak",
+      "d": "Kalın bağırsak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Emilimin gerçekleşmediği organ aşağıdakilerden hangisidir?",
+      "a": "İnce bağırsak",
+      "b": "Ağız",
+      "c": "Mide",
+      "d": "Kalın bağırsak",
+      "dogru": "b"
+    },
+    {
+      "soru": "Yağların kimyasal sindirimi nerede başlar?",
+      "a": "Ağız",
+      "b": "Mide",
+      "c": "İnce bağırsak",
+      "d": "Kalın bağırsak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Hangi yapı sindirim sistemine yardımcıdır fakat sindirim kanalının parçası değildir?",
+      "a": "İnce bağırsak",
+      "b": "Kalın bağırsak",
+      "c": "Karaciğer",
+      "d": "Rektum",
+      "dogru": "c"
+    },
+    {
+      "soru": "Pankreas aşağıdaki hangi enzim grubunu üretir?",
+      "a": "Sadece karbonhidrat enzimleri",
+      "b": "Protein ve yağ enzimleri",
+      "c": "Tüm besin grubu enzimleri",
+      "d": "Hiçbirini",
+      "dogru": "c"
+    },
+    {
+      "soru": "Sindirilmemiş besinlerin vücuttan atıldığı yapı aşağıdakilerden hangisidir?",
+      "a": "Mide",
+      "b": "İnce bağırsak",
+      "c": "Kalın bağırsak",
+      "d": "Rektum",
+      "dogru": "d"
+    },
+    {
+      "soru": "Kimyasal sindirim için gerekli olan temel madde nedir?",
+      "a": "Hormon",
+      "b": "Enzim",
+      "c": "Vitamin",
+      "d": "Protein",
+      "dogru": "b"
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi kimyasal sindirime örnektir?",
+      "a": "Dişlerle parçalama",
+      "b": "Dil ile çalkalama",
+      "c": "Amilazın nişastayı maltaza çevirmesi",
+      "d": "Yağların emülsifiye edilmesi",
+      "dogru": "c"
+    },
+    {
+      "soru": "Safra nereye dökülür?",
+      "a": "Ağız boşluğu",
+      "b": "Mide",
+      "c": "İnce bağırsak",
+      "d": "Kalın bağırsak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Hangi organ sindirim sistemiyle hem sindirim hem metabolik işlevler görür?",
+      "a": "Mide",
+      "b": "Ağız",
+      "c": "Karaciğer",
+      "d": "Kalın bağırsak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Vitaminlerin sindirimi için hangi organda çözünürlük önemlidir?",
+      "a": "Ağız",
+      "b": "Mide",
+      "c": "İnce bağırsak",
+      "d": "Kalın bağırsak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Sindirimde görev alan yardımcı organlardan biri aşağıdakilerden hangisidir?",
+      "a": "Dil",
+      "b": "Pankreas",
+      "c": "Yemek borusu",
+      "d": "Rektum",
+      "dogru": "b"
+    },
+    {
+      "soru": "Besinlerin vücutta kullanılabilmesi için aşağıdaki hangi süreç gereklidir?",
+      "a": "Sindirim",
+      "b": "Boşaltım",
+      "c": "Solunum",
+      "d": "Dolaşım",
+      "dogru": "a"
+    },
+    {
+      "soru": "Sindirim sisteminde peristaltik hareket nerelerde görülür?",
+      "a": "Yalnız ağızda",
+      "b": "Yemek borusu ve bağırsaklarda",
+      "c": "Karaciğerde",
+      "d": "Safra kesesinde",
+      "dogru": "b"
+    },
+    {
+      "soru": "Ağızda karbonhidrat sindirimi hangi enzimle başlar?",
+      "a": "Pepsin",
+      "b": "Lipaz",
+      "c": "Amilaz",
+      "d": "Tripsin",
+      "dogru": "c"
+    },
+    {
+      "soru": "Sindirim sisteminde mekanik sindirim nerede başlar?",
+      "a": "Mide",
+      "b": "Ağız",
+      "c": "İnce bağırsak",
+      "d": "Kalın bağırsak",
+      "dogru": "b"
+    },
+    {
+      "soru": "Tükürükte bulunan enzim aşağıdakilerden hangisidir?",
+      "a": "Pepsin",
+      "b": "Amilaz",
+      "c": "Tripsin",
+      "d": "Lipaz",
+      "dogru": "b"
+    },
+    {
+      "soru": "Proteinlerin kimyasal sindirimi ilk olarak nerede başlar?",
+      "a": "Ağız",
+      "b": "Mide",
+      "c": "İnce bağırsak",
+      "d": "Kalın bağırsak",
+      "dogru": "b"
+    },
+    {
+      "soru": "Yağların kimyasal sindirimi nerede başlar?",
+      "a": "Ağız",
+      "b": "Mide",
+      "c": "İnce bağırsak",
+      "d": "Kalın bağırsak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Safra sıvısının görevi nedir?",
+      "a": "Proteinleri sindirmek",
+      "b": "Yağları kimyasal olarak parçalamak",
+      "c": "Yağları mekanik olarak küçük parçalara ayırmak",
+      "d": "Karbonhidratları sindirmek",
+      "dogru": "c"
+    },
+    {
+      "soru": "Mide özsuyunda bulunan ve proteini sindiren enzim hangisidir?",
+      "a": "Amilaz",
+      "b": "Pepsin",
+      "c": "Lipaz",
+      "d": "Tripsin",
+      "dogru": "b"
+    },
+    {
+      "soru": "Karaciğerin sindirimdeki görevi nedir?",
+      "a": "Enzim üretmek",
+      "b": "Safra üretmek",
+      "c": "Mide asidini salgılamak",
+      "d": "Lipaz üretmek",
+      "dogru": "b"
+    },
+    {
+      "soru": "Pankreas tarafından salgılanan enzimlerden biri değildir?",
+      "a": "Amilaz",
+      "b": "Pepsin",
+      "c": "Lipaz",
+      "d": "Tripsin",
+      "dogru": "b"
+    },
+    {
+      "soru": "Emilim en yoğun olarak sindirim sisteminin hangi bölümünde gerçekleşir?",
+      "a": "Ağız",
+      "b": "Mide",
+      "c": "İnce bağırsak",
+      "d": "Kalın bağırsak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Villuslar ne işe yarar?",
+      "a": "Asit üretir",
+      "b": "Sindirim enzimleri üretir",
+      "c": "Yüzey alanını artırarak emilimi kolaylaştırır",
+      "d": "Tükürük üretir",
+      "dogru": "c"
+    },
+    {
+      "soru": "Besinlerin kimyasal sindirimi ağızda hangi madde için başlar?",
+      "a": "Protein",
+      "b": "Yağ",
+      "c": "Karbonhidrat",
+      "d": "Vitamin",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kalın bağırsağın en temel görevi nedir?",
+      "a": "Proteinleri sindirmek",
+      "b": "Su ve minerallerin emilimi",
+      "c": "Enzim salgılamak",
+      "d": "Safra üretmek",
+      "dogru": "b"
+    },
+    {
+      "soru": "Mide asidinin pH değeri yaklaşık olarak kaçtır?",
+      "a": "1-2",
+      "b": "4-5",
+      "c": "7",
+      "d": "8-9",
+      "dogru": "a"
+    },
+    {
+      "soru": "Sindirim kanalında hareketi sağlayan kas hareketine ne ad verilir?",
+      "a": "Peristaltik hareket",
+      "b": "Segmentasyon",
+      "c": "Sistol",
+      "d": "Ekspansiyon",
+      "dogru": "a"
+    },
+    {
+      "soru": "Safra hangi organda depolanır?",
+      "a": "Karaciğer",
+      "b": "Safra kesesi",
+      "c": "Pankreas",
+      "d": "Mide",
+      "dogru": "b"
+    },
+    {
+      "soru": "İnce bağırsakta protein sindirimi hangi enzimle devam eder?",
+      "a": "Amilaz",
+      "b": "Pepsin",
+      "c": "Tripsin",
+      "d": "Maltaz",
+      "dogru": "c"
+    },
+    {
+      "soru": "Sindirim sistemi sırasıyla hangi organlardan oluşur?",
+      "a": "Ağız → Mide → Kalın bağırsak → İnce bağırsak",
+      "b": "Ağız → Yutak → Mide → İnce bağırsak → Kalın bağırsak",
+      "c": "Ağız → Pankreas → Mide → İnce bağırsak",
+      "d": "Ağız → Yutak → Akciğer → Mide → Kalın bağırsak",
+      "dogru": "b"
+    },
+    {
+      "soru": "Yağların sindirilmesini sağlayan enzim nedir?",
+      "a": "Lipaz",
+      "b": "Amilaz",
+      "c": "Pepsin",
+      "d": "Maltaz",
+      "dogru": "a"
+    },
+    {
+      "soru": "Proteinlerin yapı taşları nelerdir?",
+      "a": "Yağ asitleri",
+      "b": "Glikoz",
+      "c": "Amino asit",
+      "d": "Vitamin",
+      "dogru": "c"
+    },
+    {
+      "soru": "Karaciğerin sindirim dışında bir görevi aşağıdakilerden hangisidir?",
+      "a": "Oksijen taşımak",
+      "b": "Vitamin üretmek",
+      "c": "Zararlı maddeleri detoksifiye etmek",
+      "d": "Su üretmek",
+      "dogru": "c"
+    },
+    {
+      "soru": "Emilen besinler hangi yapı ile kana geçer?",
+      "a": "Sinirler",
+      "b": "Lenfler",
+      "c": "Kılcal damarlar",
+      "d": "Safra kanalı",
+      "dogru": "c"
+    }
+  ],
+  "solunum": [
+    {
+      "soru": "İnsanlarda solunum organı aşağıdakilerden hangisidir?",
+      "a": "Kalp",
+      "b": "Akciğer",
+      "c": "Karaciğer",
+      "d": "Mide",
+      "dogru": "b"
+    },
+    {
+      "soru": "Solunum sistemi organlarından hangisi gaz değişiminin gerçekleştiği yerdir?",
+      "a": "Bronş",
+      "b": "Alveol",
+      "c": "Trake",
+      "d": "Burun",
+      "dogru": "b"
+    },
+    {
+      "soru": "Soluk borusunu çevreleyen yapılar nelerdir?",
+      "a": "Kas lifleri",
+      "b": "Kıkırdak halkalar",
+      "c": "Kemik halkalar",
+      "d": "Yağ dokusu",
+      "dogru": "b"
+    },
+    {
+      "soru": "Diyafram kası kasıldığında ne olur?",
+      "a": "Nefes verilir",
+      "b": "Akciğer küçülür",
+      "c": "Göğüs boşluğu genişler",
+      "d": "Kan oksijen kaybeder",
+      "dogru": "c"
+    },
+    {
+      "soru": "Solunum sisteminde hava önce hangi yapıya girer?",
+      "a": "Ağız",
+      "b": "Akciğer",
+      "c": "Burun",
+      "d": "Yemek borusu",
+      "dogru": "c"
+    },
+    {
+      "soru": "Akciğerleri saran iki katlı zarın adı nedir?",
+      "a": "Plevra",
+      "b": "Periton",
+      "c": "Perikard",
+      "d": "Epikard",
+      "dogru": "a"
+    },
+    {
+      "soru": "Oksijenin kana geçişi nerede gerçekleşir?",
+      "a": "Bronşit",
+      "b": "Trake",
+      "c": "Alveoller",
+      "d": "Larinks",
+      "dogru": "c"
+    },
+    {
+      "soru": "Soluk alıp verme olayında rol oynayan kaslardan biri hangisidir?",
+      "a": "Kalp kası",
+      "b": "İskelet kası",
+      "c": "Diyafram",
+      "d": "Göz kası",
+      "dogru": "c"
+    },
+    {
+      "soru": "Solunum sisteminde sesin oluştuğu yapı hangisidir?",
+      "a": "Burun",
+      "b": "Trake",
+      "c": "Larinks",
+      "d": "Bronş",
+      "dogru": "c"
+    },
+    {
+      "soru": "Bronşçukların sonunda yer alan yapı nedir?",
+      "a": "Alveol",
+      "b": "Bronş",
+      "c": "Larinks",
+      "d": "Burun boşluğu",
+      "dogru": "a"
+    },
+    {
+      "soru": "Hücre içi solunumun ürünlerinden biri nedir?",
+      "a": "Oksijen",
+      "b": "Glikoz",
+      "c": "Karbon dioksit",
+      "d": "Su buharı",
+      "dogru": "c"
+    },
+    {
+      "soru": "Soluk verme sırasında diyafram kası ne yapar?",
+      "a": "Kasılır",
+      "b": "Gevşer",
+      "c": "Kalınlaşır",
+      "d": "Kısalır",
+      "dogru": "b"
+    },
+    {
+      "soru": "Hangi yapının görevi gelen havayı nemlendirmek ve ısıtmaktır?",
+      "a": "Bronş",
+      "b": "Trake",
+      "c": "Burun",
+      "d": "Larinks",
+      "dogru": "c"
+    },
+    {
+      "soru": "Oksijen kanda en çok neye bağlı taşınır?",
+      "a": "Plazma",
+      "b": "Alyuvar",
+      "c": "Hemoglobin",
+      "d": "Karbonik anhidraz",
+      "dogru": "c"
+    },
+    {
+      "soru": "Gaz alışverişinde görev alan yapı aşağıdakilerden hangisidir?",
+      "a": "Plevra",
+      "b": "Alveol",
+      "c": "Bronş",
+      "d": "Larinks",
+      "dogru": "b"
+    },
+    {
+      "soru": "Akciğerlerin görevlerinden biri nedir?",
+      "a": "Besin sindirimi",
+      "b": "Kan üretimi",
+      "c": "Gaz alışverişi",
+      "d": "Isı düzenleme",
+      "dogru": "c"
+    },
+    {
+      "soru": "Karbon dioksit en fazla hangi yolla taşınır?",
+      "a": "Hemoglobine bağlı",
+      "b": "Plazmada çözünmüş",
+      "c": "Bikarbonat iyonu olarak",
+      "d": "Akciğer zarıyla",
+      "dogru": "c"
+    },
+    {
+      "soru": "Akciğerlere giren ve çıkan hava miktarına ne denir?",
+      "a": "Soluk hacmi",
+      "b": "Rezidüel hacim",
+      "c": "Vital kapasite",
+      "d": "Tidal volüm",
+      "dogru": "d"
+    },
+    {
+      "soru": "Solunum sisteminde dış ortamla ilk temas nerede olur?",
+      "a": "Alveol",
+      "b": "Burun",
+      "c": "Larinks",
+      "d": "Trake",
+      "dogru": "b"
+    },
+    {
+      "soru": "Ses telleri aşağıdaki yapılardan hangisinde bulunur?",
+      "a": "Bronş",
+      "b": "Larinks",
+      "c": "Trake",
+      "d": "Alveol",
+      "dogru": "b"
+    },
+    {
+      "soru": "Trake ile bronşlar arasındaki geçişi sağlayan yapı hangisidir?",
+      "a": "Alveol",
+      "b": "Larinks",
+      "c": "Bronş",
+      "d": "Bronşçuk",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kanın pH dengesini solunum sistemi nasıl etkiler?",
+      "a": "Glukoz emilimini artırarak",
+      "b": "Karbon dioksit miktarını ayarlayarak",
+      "c": "Protein üretimini düzenleyerek",
+      "d": "Su buharı miktarını artırarak",
+      "dogru": "b"
+    },
+    {
+      "soru": "Akciğerlerin çalışmasını doğrudan etkileyen yapı hangisidir?",
+      "a": "Kalp",
+      "b": "Kaslar",
+      "c": "Diyafram",
+      "d": "Pankreas",
+      "dogru": "c"
+    },
+    {
+      "soru": "Dış solunum nedir?",
+      "a": "Oksijenin hücreye geçişi",
+      "b": "Karbon dioksidin hücreden çıkışı",
+      "c": "Akciğerdeki gaz alışverişi",
+      "d": "Trakeyle hava taşınması",
+      "dogru": "c"
+    },
+    {
+      "soru": "Solunum sistemi aşağıdakilerden hangisiyle birlikte çalışır?",
+      "a": "Sindirim sistemi",
+      "b": "Boşaltım sistemi",
+      "c": "Dolaşım sistemi",
+      "d": "İskelet sistemi",
+      "dogru": "c"
+    },
+    {
+      "soru": "Alveollerde oksijen ve karbondioksit değişimi hangi yolla olur?",
+      "a": "Aktif taşıma",
+      "b": "Difüzyon",
+      "c": "Osmoz",
+      "d": "Endositoz",
+      "dogru": "b"
+    },
+    {
+      "soru": "Solunum sisteminde filtreleme görevi hangi yapıya aittir?",
+      "a": "Alveol",
+      "b": "Bronş",
+      "c": "Burun kılları ve mukus",
+      "d": "Plevra",
+      "dogru": "c"
+    },
+    {
+      "soru": "Hücrede ATP üretmek için gerekli olan gaz hangisidir?",
+      "a": "Karbon monoksit",
+      "b": "Azot",
+      "c": "Oksijen",
+      "d": "Hidrojen",
+      "dogru": "c"
+    },
+    {
+      "soru": "Solunum sistemi hastalıklarından biri hangisidir?",
+      "a": "Anemi",
+      "b": "Bronşit",
+      "c": "Gut",
+      "d": "Skorbüt",
+      "dogru": "b"
+    },
+    {
+      "soru": "Solunum sisteminde hava ilk olarak hangi yapıya girer?",
+      "a": "Yutak",
+      "b": "Soluk borusu",
+      "c": "Burun",
+      "d": "Akciğer",
+      "dogru": "c"
+    },
+    {
+      "soru": "Oksijen ve karbondioksit değişimi hangi yapıda gerçekleşir?",
+      "a": "Bronş",
+      "b": "Bronşiyol",
+      "c": "Alveol",
+      "d": "Soluk borusu",
+      "dogru": "c"
+    },
+    {
+      "soru": "Akciğer zarlarının arasındaki sıvının görevi nedir?",
+      "a": "Kasları gevşetmek",
+      "b": "Soluk almayı engellemek",
+      "c": "Sürtünmeyi azaltmak",
+      "d": "Hormon salgılamak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Soluk borusunu dış etkilere karşı koruyan yapı nedir?",
+      "a": "Yassı epitel",
+      "b": "Kas hücresi",
+      "c": "Kıkırdak halkalar",
+      "d": "Zarlı dokular",
+      "dogru": "c"
+    },
+    {
+      "soru": "Soluk alıp verme olayını düzenleyen merkez nerededir?",
+      "a": "Beyincik",
+      "b": "Omurilik",
+      "c": "Beyin sapı",
+      "d": "Talamus",
+      "dogru": "c"
+    },
+    {
+      "soru": "Diyafram kasının kasılmasıyla ne gerçekleşir?",
+      "a": "Soluk verme",
+      "b": "Karın kasılması",
+      "c": "Soluk alma",
+      "d": "Ses oluşumu",
+      "dogru": "c"
+    },
+    {
+      "soru": "Bronşların dallanarak oluşturduğu yapı nedir?",
+      "a": "Yutak",
+      "b": "Burun boşluğu",
+      "c": "Bronşiyol",
+      "d": "Alveol",
+      "dogru": "c"
+    },
+    {
+      "soru": "Akciğerlerdeki gaz değişimi hangi olayla gerçekleşir?",
+      "a": "Aktif taşıma",
+      "b": "Difüzyon",
+      "c": "Osmoz",
+      "d": "Endositoz",
+      "dogru": "b"
+    },
+    {
+      "soru": "Soluk alma sırasında diyaframın durumu nedir?",
+      "a": "Gevşer",
+      "b": "Yukarı doğru hareket eder",
+      "c": "Kasılır ve düzleşir",
+      "d": "Esnekliğini kaybeder",
+      "dogru": "c"
+    },
+    {
+      "soru": "Solunum sisteminde mukus salgılayan hücrelerin görevi nedir?",
+      "a": "Gaz alışverişi",
+      "b": "Hormon üretimi",
+      "c": "Toz ve mikroorganizmaları tutmak",
+      "d": "Oksijen taşımak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Karbon dioksitin büyük kısmı kanda nasıl taşınır?",
+      "a": "Plazmada çözünmüş olarak",
+      "b": "Hemoglobine bağlı",
+      "c": "Bikarbonat iyonu olarak",
+      "d": "Oksijenle birleşmiş olarak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Sigara kullanımı hangi solunum yapısına doğrudan zarar verir?",
+      "a": "Kıkırdak",
+      "b": "Alveol",
+      "c": "Diyafram",
+      "d": "Pleura",
+      "dogru": "b"
+    },
+    {
+      "soru": "Alveollerin ince yapılı olması neyi kolaylaştırır?",
+      "a": "Mukus salgısını",
+      "b": "Havanın tutulmasını",
+      "c": "Gaz değişimini",
+      "d": "Hormon üretimini",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kanda oksijen taşıyan molekül nedir?",
+      "a": "Karbonik anhidraz",
+      "b": "Trombosit",
+      "c": "Hemoglobin",
+      "d": "Fibrinojen",
+      "dogru": "c"
+    },
+    {
+      "soru": "Dış solunum nerede gerçekleşir?",
+      "a": "Hücre içinde",
+      "b": "Alveol – kılcal damar arasında",
+      "c": "Burun boşluğunda",
+      "d": "Diyaframda",
+      "dogru": "b"
+    },
+    {
+      "soru": "İç solunum aşağıdakilerden hangisini tanımlar?",
+      "a": "Hücrelerde oksijenin kullanılması",
+      "b": "Alveollerde gaz değişimi",
+      "c": "Soluk alıp verme",
+      "d": "Kanın solunum organına taşınması",
+      "dogru": "a"
+    },
+    {
+      "soru": "Bronşit hastalığı en çok hangi yapıyı etkiler?",
+      "a": "Alveol",
+      "b": "Bronş",
+      "c": "Diyafram",
+      "d": "Kılcal damar",
+      "dogru": "b"
+    },
+    {
+      "soru": "Soluk borusunun iç yüzeyindeki silli epitelin görevi nedir?",
+      "a": "Toz ve mikroorganizmaları dışarı atmak",
+      "b": "Mukus üretmek",
+      "c": "Gaz değişimini sağlamak",
+      "d": "Sesi oluşturmak",
+      "dogru": "a"
+    },
+    {
+      "soru": "Solunum sisteminde sesin oluştuğu yapı hangisidir?",
+      "a": "Burun",
+      "b": "Soluk borusu",
+      "c": "Gırtlak",
+      "d": "Yutak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Solunum sistemi hastalıklarından biri aşağıdakilerden hangisidir?",
+      "a": "Nefrit",
+      "b": "Astım",
+      "c": "Diyabet",
+      "d": "Anemi",
+      "dogru": "b"
+    },
+    {
+      "soru": "Soluk alırken göğüs kafesinin hacmi nasıl değişir?",
+      "a": "Azalır",
+      "b": "Artar",
+      "c": "Değişmez",
+      "d": "Gevşer",
+      "dogru": "b"
+    }
+  ],
+  "ureme": [
+    {
+      "soru": "İnsanlarda dişi üreme sisteminin temel yapıları aşağıdakilerden hangisidir?",
+      "a": "Testis, penis, prostat",
+      "b": "Yumurtalık, uterus, vajina",
+      "c": "Böbrek, üreter, üretra",
+      "d": "Yumurtalık, mesane, rektum",
+      "dogru": "b"
+    },
+    {
+      "soru": "Spermin üretildiği yapı aşağıdakilerden hangisidir?",
+      "a": "Epididimis",
+      "b": "Penis",
+      "c": "Testis",
+      "d": "Prostat",
+      "dogru": "c"
+    },
+    {
+      "soru": "Döllenme olayı insanlarda genellikle nerede gerçekleşir?",
+      "a": "Vajina",
+      "b": "Rahim",
+      "c": "Yumurta kanalı (Fallop tüpü)",
+      "d": "Yumurtalık",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kadınlarda yumurta hücresinin üretildiği yapı hangisidir?",
+      "a": "Uterus",
+      "b": "Vajina",
+      "c": "Fallop tüpü",
+      "d": "Yumurtalık",
+      "dogru": "d"
+    },
+    {
+      "soru": "Menstruasyon döngüsünü düzenleyen temel hormon hangisidir?",
+      "a": "Adrenalin",
+      "b": "Testosteron",
+      "c": "Östrojen",
+      "d": "Tiroksin",
+      "dogru": "c"
+    },
+    {
+      "soru": "Embriyonun tutunduğu yapı hangisidir?",
+      "a": "Yumurta kanalı",
+      "b": "Rahim duvarı (endometriyum)",
+      "c": "Yumurtalık",
+      "d": "Serviks",
+      "dogru": "b"
+    },
+    {
+      "soru": "İnsan spermi kaç kromozom taşır?",
+      "a": "23 çift",
+      "b": "46 çift",
+      "c": "23",
+      "d": "46",
+      "dogru": "c"
+    },
+    {
+      "soru": "Spermin hareketli hale geldiği ve depolandığı yapı aşağıdakilerden hangisidir?",
+      "a": "Prostat",
+      "b": "Penis",
+      "c": "Epididimis",
+      "d": "Vezikula seminalis",
+      "dogru": "c"
+    },
+    {
+      "soru": "Yumurta döllendikten sonra zigotun bölünmeye başlaması hangi olayın sonucudur?",
+      "a": "Menstruasyon",
+      "b": "Mayoz bölünme",
+      "c": "Mitotik bölünme",
+      "d": "Ovulasyon",
+      "dogru": "c"
+    },
+    {
+      "soru": "Erkek üreme sisteminde semen sıvısına katkı sağlayan bezlerden biri aşağıdakilerden hangisidir?",
+      "a": "Böbrek",
+      "b": "Epididimis",
+      "c": "Prostat bezi",
+      "d": "İnce bağırsak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Ergenlik döneminde erkek bireylerde ses kalınlaşmasının nedeni aşağıdakilerden hangisidir?",
+      "a": "Testosteron hormonunun artışı",
+      "b": "Östrojen salgısının artması",
+      "c": "Tiroid bezinin çalışması",
+      "d": "Hipotalamusun küçülmesi",
+      "dogru": "a"
+    },
+    {
+      "soru": "Kadın üreme sisteminde ovulasyon sonrası yumurtanın atıldığı yapı nedir?",
+      "a": "Uterus",
+      "b": "Vajina",
+      "c": "Fallop tüpü",
+      "d": "Endometriyum",
+      "dogru": "c"
+    },
+    {
+      "soru": "Yumurtlamayı başlatan hormon aşağıdakilerden hangisidir?",
+      "a": "LH",
+      "b": "FSH",
+      "c": "Progesteron",
+      "d": "ADH",
+      "dogru": "a"
+    },
+    {
+      "soru": "Menstrual döngünün ilk gününde hangi olay gerçekleşir?",
+      "a": "Yumurtlama",
+      "b": "Rahim iç yüzeyinin kanamayla atılması",
+      "c": "Döllenme",
+      "d": "Spermin üretimi",
+      "dogru": "b"
+    },
+    {
+      "soru": "Dişi üreme sisteminde yumurtayı taşıyan kanal hangisidir?",
+      "a": "Uretra",
+      "b": "Fallop tüpü",
+      "c": "Vajina",
+      "d": "Serviks",
+      "dogru": "b"
+    },
+    {
+      "soru": "Gebelik süresince hangi hormonun seviyesi yüksek kalır?",
+      "a": "FSH",
+      "b": "LH",
+      "c": "Progesteron",
+      "d": "Testosteron",
+      "dogru": "c"
+    },
+    {
+      "soru": "Sperm hücresinin yumurta hücresine ulaşabilmesi için hangi yapıdan geçmesi gerekir?",
+      "a": "Serviks",
+      "b": "Uretra",
+      "c": "Testis",
+      "d": "Prostat",
+      "dogru": "a"
+    },
+    {
+      "soru": "Zigotun rahme yerleşmesi olayı aşağıdakilerden hangisidir?",
+      "a": "Fertilizasyon",
+      "b": "Ovulasyon",
+      "c": "İmplantasyon",
+      "d": "Meioz",
+      "dogru": "c"
+    },
+    {
+      "soru": "Bir erkekte sperm oluşumu hangi hücre bölünmesi ile başlar?",
+      "a": "Mitoz",
+      "b": "Mayoz",
+      "c": "Endositoz",
+      "d": "Oogenez",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kadınlarda doğurganlık dönemi genellikle kaç yaşları arasındadır?",
+      "a": "10-15",
+      "b": "12-20",
+      "c": "15-45",
+      "d": "20-60",
+      "dogru": "c"
+    },
+    {
+      "soru": "Yumurtalıkta bulunan ve östrojen salgılayan yapıya ne ad verilir?",
+      "a": "Folikül",
+      "b": "Endometriyum",
+      "c": "Spermatid",
+      "d": "Plasenta",
+      "dogru": "a"
+    },
+    {
+      "soru": "Kadınlarda döllenme sonrası ilk hücre bölünmeleri nerede gerçekleşir?",
+      "a": "Rahim",
+      "b": "Vajina",
+      "c": "Fallop tüpü",
+      "d": "Yumurtalık",
+      "dogru": "c"
+    },
+    {
+      "soru": "Spermatogenez süreci nerede başlar?",
+      "a": "Prostat",
+      "b": "Seminifer tübül",
+      "c": "Epididimis",
+      "d": "Uretra",
+      "dogru": "b"
+    },
+    {
+      "soru": "Zigotun mitozla bölünüp oluşturduğu yapıya ne ad verilir?",
+      "a": "Embriyo",
+      "b": "Gamete",
+      "c": "Morula",
+      "d": "Folikül",
+      "dogru": "c"
+    },
+    {
+      "soru": "İnsanlarda gelişim süreci sırasıyla nasıl ilerler?",
+      "a": "Zigot → Morula → Blastula → Embriyo → Fetus",
+      "b": "Gamete → Zigot → Embriyo → Fetus → Morula",
+      "c": "Blastula → Morula → Zigot → Embriyo → Fetus",
+      "d": "Zigot → Embriyo → Fetus → Blastula",
+      "dogru": "a"
+    },
+    {
+      "soru": "İnsanlarda zigotun oluştuğu hücre bölünmesi hangisidir?",
+      "a": "Mitoz",
+      "b": "Mayoz",
+      "c": "Döllenme",
+      "d": "Fagositoz",
+      "dogru": "c"
+    },
+    {
+      "soru": "Korpus luteum hangi hormonları salgılar?",
+      "a": "FSH ve LH",
+      "b": "Östrojen ve progesteron",
+      "c": "Testosteron ve ADH",
+      "d": "Tiroksin ve adrenalin",
+      "dogru": "b"
+    },
+    {
+      "soru": "Testislerde bulunan seminifer tübüllerin görevi nedir?",
+      "a": "Hormon salgılamak",
+      "b": "Yumurta üretmek",
+      "c": "Sperm üretmek",
+      "d": "Kan temizlemek",
+      "dogru": "c"
+    },
+    {
+      "soru": "Dişi üreme sisteminde döllenme sonrası oluşan yapıya ne ad verilir?",
+      "a": "Oogenez",
+      "b": "Zigot",
+      "c": "Spermatid",
+      "d": "Embriyonik disk",
+      "dogru": "b"
+    },
+    {
+      "soru": "Gebelikte plasenta hangi maddeleri bebeğe iletmez?",
+      "a": "Oksijen",
+      "b": "Besin",
+      "c": "Zararlı maddeler",
+      "d": "Kan hücreleri",
+      "dogru": "d"
+    },
+    {
+      "soru": "Menstrual döngüde endometriyum kalınlaşmasını sağlayan hormon hangisidir?",
+      "a": "Östrojen",
+      "b": "Progesteron",
+      "c": "LH",
+      "d": "FSH",
+      "dogru": "b"
+    },
+    {
+      "soru": "Embriyo gelişiminin ilk evresi nedir?",
+      "a": "Morula",
+      "b": "Zigot",
+      "c": "Blastula",
+      "d": "Gastrula",
+      "dogru": "b"
+    },
+    {
+      "soru": "Yumurta hücresiyle sperm hücresinin birleşmesi hangi olaydır?",
+      "a": "Mitotik bölünme",
+      "b": "Fertilizasyon",
+      "c": "İmplantasyon",
+      "d": "Ovulasyon",
+      "dogru": "b"
+    },
+    {
+      "soru": "Spermatogenez nerede başlar?",
+      "a": "Epididimis",
+      "b": "Prostat",
+      "c": "Seminifer tübüller",
+      "d": "Mesane",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kadınlarda yumurtlamanın gerçekleştiği evre hangisidir?",
+      "a": "Folikül evresi",
+      "b": "Ovulasyon evresi",
+      "c": "Luteal evre",
+      "d": "Menstruasyon evresi",
+      "dogru": "b"
+    },
+    {
+      "soru": "Sperm hücresinin dişi üreme hücresiyle birleşmesi hangi hücreyi oluşturur?",
+      "a": "Oosit",
+      "b": "Zigot",
+      "c": "Embriyo",
+      "d": "Fetus",
+      "dogru": "b"
+    },
+    {
+      "soru": "Döllenmenin ardından ilk hücre bölünmesi hangi türdedir?",
+      "a": "Mayoz",
+      "b": "Endositoz",
+      "c": "Mitoz",
+      "d": "Amitoz",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kadınlarda döllenme sonrası oluşan yapının rahme tutunmasına ne ad verilir?",
+      "a": "Ovulasyon",
+      "b": "Fertilizasyon",
+      "c": "İmplantasyon",
+      "d": "Gametogenez",
+      "dogru": "c"
+    },
+    {
+      "soru": "Embriyo gelişimi sırasında organların oluştuğu evre nedir?",
+      "a": "Gastrulasyon",
+      "b": "Morula",
+      "c": "Zigot",
+      "d": "Ovulasyon",
+      "dogru": "a"
+    },
+    {
+      "soru": "Testosteron hormonu nerede üretilir?",
+      "a": "Hipofiz",
+      "b": "Testis",
+      "c": "Tiroid",
+      "d": "Sertoli hücreleri",
+      "dogru": "b"
+    },
+    {
+      "soru": "Folikül evresinde salgılanan hormon hangisidir?",
+      "a": "Progesteron",
+      "b": "Testosteron",
+      "c": "Östrojen",
+      "d": "LH",
+      "dogru": "c"
+    },
+    {
+      "soru": "Embriyonun gelişim sürecinde en dış katmana ne ad verilir?",
+      "a": "Ektoderm",
+      "b": "Endoderm",
+      "c": "Mezoderm",
+      "d": "Trofoblast",
+      "dogru": "a"
+    },
+    {
+      "soru": "Yumurta hücresi döllenmezse hangi yapı geriler?",
+      "a": "Folikül",
+      "b": "Korpus luteum",
+      "c": "Blastula",
+      "d": "Zigot",
+      "dogru": "b"
+    },
+    {
+      "soru": "İnsanlarda cinsiyetin belirlenmesinde etkili olan kromozomlar hangileridir?",
+      "a": "Otozomlar",
+      "b": "X ve Y",
+      "c": "XX",
+      "d": "XY",
+      "dogru": "b"
+    },
+    {
+      "soru": "Döllenme sonucu oluşan yapıya ilk mitotik bölünme sonrası ne ad verilir?",
+      "a": "Zigot",
+      "b": "Morula",
+      "c": "Gastrula",
+      "d": "Fetus",
+      "dogru": "b"
+    },
+    {
+      "soru": "Prolaktin hormonu hangi işlevi düzenler?",
+      "a": "Süt üretimi",
+      "b": "Yumurta oluşumu",
+      "c": "Döllenme",
+      "d": "Sperm üretimi",
+      "dogru": "a"
+    },
+    {
+      "soru": "Hamilelikte rahim kasılmasını sağlayan hormon nedir?",
+      "a": "Progesteron",
+      "b": "Oksitosin",
+      "c": "LH",
+      "d": "FSH",
+      "dogru": "b"
+    },
+    {
+      "soru": "Serviks hangi organın bir parçasıdır?",
+      "a": "Yumurtalık",
+      "b": "Fallop tüpü",
+      "c": "Uterus",
+      "d": "Mesane",
+      "dogru": "c"
+    },
+    {
+      "soru": "Cinsel karakterlerin gelişmesini sağlayan hormon hangisidir?",
+      "a": "ADH",
+      "b": "Tiroksin",
+      "c": "Östrojen",
+      "d": "Oksitosin",
+      "dogru": "c"
+    },
+    {
+      "soru": "Gebelik süresince bebekle anne arasındaki madde alışverişi hangi yapıda olur?",
+      "a": "Embriyo",
+      "b": "Amniyon kesesi",
+      "c": "Plasenta",
+      "d": "Yumurta kanalı",
+      "dogru": "c"
+    }
+  ],
+  "uriner": [
+    {
+      "soru": "Üriner sistemin temel görevi nedir?",
+      "a": "Besinleri sindirmek",
+      "b": "Kanı temizlemek ve atık maddeleri uzaklaştırmak",
+      "c": "Hormon üretmek",
+      "d": "Enerji depolamak",
+      "dogru": "b"
+    },
+    {
+      "soru": "İnsanlarda idrar oluşumu sırasıyla hangi yapılarda gerçekleşir?",
+      "a": "Üreter → Mesane → Nefron",
+      "b": "Nefron → Üreter → Mesane → Üretra",
+      "c": "Mesane → Üretra → Böbrek",
+      "d": "Nefron → Üretra → Mesane",
+      "dogru": "b"
+    },
+    {
+      "soru": "Böbreklerde kanın süzüldüğü temel yapı aşağıdakilerden hangisidir?",
+      "a": "Henele kulpu",
+      "b": "Glomerulus",
+      "c": "Mesane",
+      "d": "Üretra",
+      "dogru": "b"
+    },
+    {
+      "soru": "Nefron yapısında geri emilim çoğunlukla nerede gerçekleşir?",
+      "a": "Bağ dokusunda",
+      "b": "Proksimal tüp",
+      "c": "Distal tüp",
+      "d": "Mesane",
+      "dogru": "b"
+    },
+    {
+      "soru": "İdrarın mesaneye taşınmasını sağlayan yapı nedir?",
+      "a": "Üretra",
+      "b": "Nefron",
+      "c": "Üreter",
+      "d": "Glomerulus",
+      "dogru": "c"
+    },
+    {
+      "soru": "İdrar üretimi sırasında hangi madde geri emilime uğramaz ve atılır?",
+      "a": "Glikoz",
+      "b": "Amino asit",
+      "c": "Üre",
+      "d": "Su",
+      "dogru": "c"
+    },
+    {
+      "soru": "Böbrekte süzülme işlemi hangi yapıda gerçekleşir?",
+      "a": "Henle kulpu",
+      "b": "Proksimal tüp",
+      "c": "Bowman kapsülü",
+      "d": "Distal tüp",
+      "dogru": "c"
+    },
+    {
+      "soru": "Üriner sistemde atıkların vücut dışına atıldığı son yapı hangisidir?",
+      "a": "Üreter",
+      "b": "Mesane",
+      "c": "Nefron",
+      "d": "Üretra",
+      "dogru": "d"
+    },
+    {
+      "soru": "Böbreklerin çalışmasını düzenleyen hormon aşağıdakilerden hangisidir?",
+      "a": "Adrenalin",
+      "b": "ADH",
+      "c": "İnsülin",
+      "d": "Tiroksin",
+      "dogru": "b"
+    },
+    {
+      "soru": "Böbreğin en küçük işlevsel birimi nedir?",
+      "a": "Glomerulus",
+      "b": "Nefron",
+      "c": "Bowman kapsülü",
+      "d": "Üreter",
+      "dogru": "b"
+    },
+    {
+      "soru": "İdrar miktarını azaltan hormon aşağıdakilerden hangisidir?",
+      "a": "FSH",
+      "b": "LH",
+      "c": "ADH",
+      "d": "TSH",
+      "dogru": "c"
+    },
+    {
+      "soru": "Böbrekte süzülen sıvı hangi yapı ile nefrona geçer?",
+      "a": "Glomerulus – Bowman kapsülü",
+      "b": "Henle kulpu – Mesane",
+      "c": "Üreter – Üretra",
+      "d": "Mesane – Üretra",
+      "dogru": "a"
+    },
+    {
+      "soru": "Böbrekte süzülme olayını sağlayan basınç türü hangisidir?",
+      "a": "Osmoz basıncı",
+      "b": "Kanın glikoz basıncı",
+      "c": "Kan basıncı",
+      "d": "İyonik basınç",
+      "dogru": "c"
+    },
+    {
+      "soru": "Süzülme işlemi sırasında hangi madde kan plazmasından geçemez?",
+      "a": "Üre",
+      "b": "Glikoz",
+      "c": "Protein",
+      "d": "İyon",
+      "dogru": "c"
+    },
+    {
+      "soru": "İdrar yapma isteği hangi organda hissedilir?",
+      "a": "Üretra",
+      "b": "Mesane",
+      "c": "Böbrek",
+      "d": "Proksimal tüp",
+      "dogru": "b"
+    },
+    {
+      "soru": "Üre hangi organ tarafından üretildikten sonra kana verilir?",
+      "a": "Böbrek",
+      "b": "İnce bağırsak",
+      "c": "Karaciğer",
+      "d": "Mesane",
+      "dogru": "c"
+    },
+    {
+      "soru": "ADH hormonu hangi organ tarafından salgılanır?",
+      "a": "Hipofiz bezi",
+      "b": "Böbrek üstü bezi",
+      "c": "Karaciğer",
+      "d": "Tiroid bezi",
+      "dogru": "a"
+    },
+    {
+      "soru": "İdrarda glikoz bulunması genellikle hangi hastalığın belirtisidir?",
+      "a": "Anemi",
+      "b": "Şeker hastalığı (diyabet)",
+      "c": "Grip",
+      "d": "İdrar yolu enfeksiyonu",
+      "dogru": "b"
+    },
+    {
+      "soru": "Henle kulpunun temel görevi nedir?",
+      "a": "İdrarın atılması",
+      "b": "Proteinlerin süzülmesi",
+      "c": "Su ve tuz dengesini düzenlemek",
+      "d": "Glikoz sentezlemek",
+      "dogru": "c"
+    },
+    {
+      "soru": "İdrar oluşum sürecinde en çok su geri emilimi nerede olur?",
+      "a": "Distal tüp",
+      "b": "Henle kulpu",
+      "c": "Proksimal tüp",
+      "d": "Bowman kapsülü",
+      "dogru": "c"
+    },
+    {
+      "soru": "Kanın pH dengesini korumada böbreklerin rolü nedir?",
+      "a": "Oksijen taşıma",
+      "b": "Asit-baz dengesini sağlama",
+      "c": "Enzim üretme",
+      "d": "Vitamin sentezleme",
+      "dogru": "b"
+    },
+    {
+      "soru": "Aşağıdaki yapılardan hangisi üriner sistemin parçası değildir?",
+      "a": "Mesane",
+      "b": "Üreter",
+      "c": "Kalın bağırsak",
+      "d": "Üretra",
+      "dogru": "c"
+    },
+    {
+      "soru": "Üretra kadınlarda erkeklere göre nasıldır?",
+      "a": "Daha uzun",
+      "b": "Daha kısa",
+      "c": "Daha kalın",
+      "d": "Aynı uzunlukta",
+      "dogru": "b"
+    },
+    {
+      "soru": "Böbreklerin filtre ettiği sıvının çoğu ne olur?",
+      "a": "İdrar olarak atılır",
+      "b": "Kana geri emilir",
+      "c": "Ter ile atılır",
+      "d": "Karaciğerde birikir",
+      "dogru": "b"
+    },
+    {
+      "soru": "İdrarda protein görülmesi hangi duruma işaret eder?",
+      "a": "Normaldir",
+      "b": "Karaciğer yetmezliği",
+      "c": "Böbrek hasarı",
+      "d": "Açlık",
+      "dogru": "c"
+    },
+    {
+      "soru": "İdrar rengi koyu olduğunda bu neyin göstergesidir?",
+      "a": "Fazla su alımı",
+      "b": "Susuz kalma",
+      "c": "Fazla idrar üretimi",
+      "d": "Yüksek protein",
+      "dogru": "b"
+    },
+    {
+      "soru": "Sıvı alımı arttığında ADH düzeyi nasıl değişir?",
+      "a": "Artar",
+      "b": "Değişmez",
+      "c": "Azalır",
+      "d": "Yükselir",
+      "dogru": "c"
+    },
+    {
+      "soru": "Böbreğin medulla bölgesinde en çok bulunan yapı hangisidir?",
+      "a": "Proksimal tüp",
+      "b": "Henle kulpu",
+      "c": "Bowman kapsülü",
+      "d": "Glomerulus",
+      "dogru": "b"
+    },
+    {
+      "soru": "Hangi madde böbreklerden süzülmez?",
+      "a": "Glikoz",
+      "b": "Su",
+      "c": "Protein",
+      "d": "Üre",
+      "dogru": "c"
+    },
+    {
+      "soru": "İnsan vücudunda böbrek sayısı kaçtır?",
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4",
+      "dogru": "b"
+    },
+    {
+      "soru": "Böbreklerin atıkları süzerek oluşturduğu sıvıya ne ad verilir?",
+      "a": "Plazma",
+      "b": "Lenf",
+      "c": "İdrar",
+      "d": "Safra",
+      "dogru": "c"
+    },
+    {
+      "soru": "Hangi madde normal bir idrarda bulunmaz?",
+      "a": "Üre",
+      "b": "Glikoz",
+      "c": "Su",
+      "d": "İyon",
+      "dogru": "b"
+    },
+    {
+      "soru": "İdrar hangi organla vücuttan dışarı atılır?",
+      "a": "Böbrek",
+      "b": "Mesane",
+      "c": "Üretra",
+      "d": "Üreter",
+      "dogru": "c"
+    },
+    {
+      "soru": "İdrar miktarını en çok etkileyen faktör nedir?",
+      "a": "Vitamin düzeyi",
+      "b": "Su tüketimi",
+      "c": "Mineral emilimi",
+      "d": "Kas kitlesi",
+      "dogru": "b"
+    },
+    {
+      "soru": "İdrarın mesanede birikmesini sağlayan kas yapısı hangisidir?",
+      "a": "Sfinkter",
+      "b": "Henle kulpu",
+      "c": "Nefron",
+      "d": "Bowman kapsülü",
+      "dogru": "a"
+    },
+    {
+      "soru": "Kanın süzülmesiyle oluşan ilk sıvıya ne ad verilir?",
+      "a": "İdrar",
+      "b": "Filtrat",
+      "c": "Lenf",
+      "d": "Plazma",
+      "dogru": "b"
+    },
+    {
+      "soru": "Böbrekler kanın hangi özelliğini düzenlemede görev almaz?",
+      "a": "pH dengesi",
+      "b": "Su dengesi",
+      "c": "Protein sentezi",
+      "d": "İyon dengesi",
+      "dogru": "c"
+    },
+    {
+      "soru": "İdrarda protein çıkması hangi sorunu işaret eder?",
+      "a": "Böbrek hasarı",
+      "b": "Yüksek tansiyon",
+      "c": "Karaciğer yetmezliği",
+      "d": "Susuzluk",
+      "dogru": "a"
+    },
+    {
+      "soru": "Böbrek üstü bezlerinden salgılanan hangi hormon sodyum geri emilimini artırır?",
+      "a": "Adrenalin",
+      "b": "Aldosteron",
+      "c": "Tiroksin",
+      "d": "ADH",
+      "dogru": "b"
+    },
+    {
+      "soru": "Kanın süzüldüğü kılcal damar yumağı nedir?",
+      "a": "Nefron",
+      "b": "Glomerulus",
+      "c": "Henle kulpu",
+      "d": "Üreter",
+      "dogru": "b"
+    },
+    {
+      "soru": "Üriner sistemde suyun geri emilimini artıran hormon hangisidir?",
+      "a": "FSH",
+      "b": "Tiroksin",
+      "c": "ADH",
+      "d": "LH",
+      "dogru": "c"
+    },
+    {
+      "soru": "İdrarın üretildiği yer neresidir?",
+      "a": "Mesane",
+      "b": "Nefron",
+      "c": "Üreter",
+      "d": "Üretra",
+      "dogru": "b"
+    },
+    {
+      "soru": "Mesanenin görevi nedir?",
+      "a": "İdrar üretmek",
+      "b": "İdrarı vücut dışına atmak",
+      "c": "İdrarı biriktirmek",
+      "d": "Süzülmeyi sağlamak",
+      "dogru": "c"
+    },
+    {
+      "soru": "Üriner sistem hangi maddeyi vücuttan atmaz?",
+      "a": "Üre",
+      "b": "Amonyak",
+      "c": "Glikoz",
+      "d": "Su",
+      "dogru": "c"
+    },
+    {
+      "soru": "Nefron hangi yapılarla birlikte çalışır?",
+      "a": "Alveol",
+      "b": "Glomerulus ve tüpler",
+      "c": "Lenf damarları",
+      "d": "Safra kesesi",
+      "dogru": "b"
+    },
+    {
+      "soru": "İdrarda fazla su olması neyi gösterir?",
+      "a": "Vücuttan su atımı arttı",
+      "b": "ADH arttı",
+      "c": "Tansiyon düştü",
+      "d": "Açlık var",
+      "dogru": "a"
+    },
+    {
+      "soru": "Geri emilim en yoğun nerede olur?",
+      "a": "Henle kulpu",
+      "b": "Distal tüp",
+      "c": "Proksimal tüp",
+      "d": "Glomerulus",
+      "dogru": "c"
+    },
+    {
+      "soru": "Vücuttaki fazla tuzun atılması hangi sistemle olur?",
+      "a": "Solunum",
+      "b": "Sindirim",
+      "c": "Üriner",
+      "d": "Sinir",
+      "dogru": "c"
+    },
+    {
+      "soru": "Vücutta sıvı dengesi bozulduğunda hangi hormon devreye girer?",
+      "a": "Oksitosin",
+      "b": "Adrenalin",
+      "c": "ADH",
+      "d": "Prolaktin",
+      "dogru": "c"
+    },
+    {
+      "soru": "İdrar kanalı tıkanırsa hangi sorun oluşur?",
+      "a": "İdrar kaçağı",
+      "b": "Geri emilim durur",
+      "c": "İdrar birikimi",
+      "d": "Glikoz birikir",
+      "dogru": "c"
+    }
+  ]
+}
