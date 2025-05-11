@@ -4363,18 +4363,33 @@ index);return ret?ret.x:0},TagY(tag,index){const ret=this._GetTagPosition(tag,in
 
 }
 
-// scripts/plugins/Button/c3runtime/runtime.js
+// scripts/plugins/NinePatch/c3runtime/runtime.js
 {
-'use strict';{const C3=self.C3;const DOM_COMPONENT_ID="button";C3.Plugins.Button=class ButtonPlugin extends C3.SDKDOMPluginBase{constructor(opts){super(opts,DOM_COMPONENT_ID);this.AddElementMessageHandler("click",(sdkInst,e)=>sdkInst._OnClick(e))}Release(){super.Release()}}}{const C3=self.C3;C3.Plugins.Button.Type=class ButtonType extends C3.SDKTypeBase{constructor(objectClass){super(objectClass)}Release(){super.Release()}OnCreate(){}}}
-{const C3=self.C3;const C3X=self.C3X;const TYPE=0;const TEXT=1;const TOOLTIP=2;const INITIALLY_VISIBLE=3;const ENABLE=4;const AUTO_FONT_SIZE=5;const CHECKED=6;const ID=7;const CLASS_NAME=8;const DOM_COMPONENT_ID="button";C3.Plugins.Button.Instance=class ButtonInstance extends C3.SDKDOMInstanceBase{constructor(inst,properties){super(inst,DOM_COMPONENT_ID);this._text="OK";this._isCheckbox=false;this._isChecked=false;this._title="";this._id="";this._className="";this._isEnabled=true;this._autoFontSize=
-true;if(properties){this._isCheckbox=properties[TYPE]===1;this._text=properties[TEXT];this._title=properties[TOOLTIP];this.GetWorldInfo().SetVisible(properties[INITIALLY_VISIBLE]);this._isEnabled=properties[ENABLE];this._autoFontSize=properties[AUTO_FONT_SIZE];this._isChecked=properties[CHECKED];this._id=properties[ID];this._className=properties[CLASS_NAME]}this.CreateElement({"id":this._id,"className":this._className})}Release(){super.Release()}GetElementState(){return{"text":this._text,"isCheckbox":this._isCheckbox,
-"isChecked":this._isChecked,"title":this._title,"isVisible":this.GetWorldInfo().IsVisible(),"isEnabled":this._isEnabled}}async _OnClick(e){this._isChecked=e["isChecked"];this.DispatchScriptEvent("click",true);await this.TriggerAsync(C3.Plugins.Button.Cnds.OnClicked)}_SetText(text){if(this._text===text)return;this._text=text;this.UpdateElementState()}_GetText(){return this._text}_SetTooltip(title){if(this._title===title)return;this._title=title;this.UpdateElementState()}_GetTooltip(){return this._title}_SetEnabled(e){e=
-!!e;if(this._isEnabled===e)return;this._isEnabled=e;this.UpdateElementState()}_IsEnabled(){return this._isEnabled}_SetChecked(c){if(!this._isCheckbox)return;c=!!c;if(this._isChecked===c)return;this._isChecked=c;this.UpdateElementState()}_IsChecked(){return this._isChecked}Draw(renderer){}SaveToJson(){return{"text":this._text,"checked":this._isChecked,"title":this._title,"enabled":this._isEnabled}}LoadFromJson(o){this._text=o["text"];this._isChecked=o["checked"];this._title=o["title"];this._isEnabled=
-o["enabled"];this.UpdateElementState()}GetPropertyValueByIndex(index){switch(index){case TEXT:return this._GetText();case TOOLTIP:return this._GetTooltip();case ENABLE:return this._IsEnabled();case AUTO_FONT_SIZE:return this._autoFontSize;case CHECKED:return this._IsChecked()}}SetPropertyValueByIndex(index,value){switch(index){case TEXT:this._SetText(value);break;case TOOLTIP:this._SetTooltip(value);break;case ENABLE:this._SetEnabled(!!value);break;case AUTO_FONT_SIZE:this._autoFontSize=!!value;break;
-case CHECKED:this._SetChecked(!!value);break}}GetDebuggerProperties(){const prefix="plugins.button";return[{title:prefix+".name",properties:[{name:prefix+".properties.text.name",value:this._GetText(),onedit:v=>this._SetText(v)},{name:prefix+".properties.enabled.name",value:this._IsEnabled(),onedit:v=>this._SetEnabled(v)},{name:prefix+".properties.checked.name",value:this._IsChecked(),onedit:v=>this._SetChecked(v)}]}]}GetScriptInterfaceClass(){return self.IButtonInstance}};const map=new WeakMap;self.IButtonInstance=
-class IButtonInstance extends self.IDOMInstance{constructor(){super();map.set(this,self.IInstance._GetInitInst().GetSdkInstance())}set text(str){C3X.RequireString(str);map.get(this)._SetText(str)}get text(){return map.get(this)._GetText()}set tooltip(str){C3X.RequireString(str);map.get(this)._SetTooltip(str)}get tooltip(){return map.get(this)._GetTooltip()}set isEnabled(e){map.get(this)._SetEnabled(e)}get isEnabled(){return map.get(this)._IsEnabled()}set isChecked(c){map.get(this)._SetChecked(c)}get isChecked(){return map.get(this)._IsChecked()}}}
-{const C3=self.C3;C3.Plugins.Button.Cnds={OnClicked(){return true},IsChecked(){return this._isChecked},CompareText(str,caseSensitive){if(caseSensitive)return this._text===str;else return C3.equalsNoCase(this._text,str)}}}{const C3=self.C3;C3.Plugins.Button.Acts={SetText(text){this._SetText(text)},SetTooltip(title){this._SetTooltip(title)},SetChecked(c){this._SetChecked(c!==0)},ToggleChecked(){if(!this._isCheckbox)return;this._isChecked=!this._isChecked;this.UpdateElementState()}}}
-{const C3=self.C3;C3.Plugins.Button.Exps={Text(){return this._text}}};
+'use strict';{const C3=self.C3;C3.Plugins.NinePatch=class NinePatchPlugin extends C3.SDKPluginBase{constructor(opts){super(opts)}Release(){super.Release()}}}
+{const C3=self.C3;C3.Plugins.NinePatch.Type=class NinePatchType extends C3.SDKTypeBase{constructor(objectClass){super(objectClass);this._textureSet=null;this._drawable=null}Release(){this.ReleaseTextures();super.Release()}OnCreate(){this.GetImageInfo().LoadAsset(this._runtime)}async LoadTextures(renderer){const imageInfo=this.GetImageInfo();this._drawable=await imageInfo.ExtractImageToCanvas()}CreatePatch(lm,rm,tm,bm){if(this._textureSet||!this._drawable)return;this._textureSet=new self.NinePatchTextureSet(this);
+this._textureSet.CreateTextures(this._drawable,lm,rm,tm,bm)}ReleaseTextures(){if(this._textureSet){this._textureSet.Release();this._textureSet=null}}GetTextureSet(){return this._textureSet}}}
+{const C3=self.C3;const LEFT_MARGIN=0;const RIGHT_MARGIN=1;const TOP_MARGIN=2;const BOTTOM_MARGIN=3;const EDGES=4;const FILL=5;const INITIALLY_VISIBLE=6;const ORIGIN=7;const SEAMS=8;const tempRect1=C3.New(C3.Rect);const tempRect2=C3.New(C3.Rect);const tempQuad=C3.New(C3.Quad);C3.Plugins.NinePatch.Instance=class NinePatchInstance extends C3.SDKWorldInstanceBase{constructor(inst,properties){super(inst);this._leftMargin=16;this._rightMargin=16;this._topMargin=16;this._bottomMargin=16;this._edges=1;this._fill=
+1;this._isSeamless=true;this._callback3d=null;if(properties){this._leftMargin=properties[LEFT_MARGIN];this._rightMargin=properties[RIGHT_MARGIN];this._topMargin=properties[TOP_MARGIN];this._bottomMargin=properties[BOTTOM_MARGIN];this._edges=properties[EDGES];this._fill=properties[FILL];this._isSeamless=!!properties[SEAMS];this.GetWorldInfo().SetVisible(!!properties[INITIALLY_VISIBLE])}this._sdkType.CreatePatch(this._leftMargin,this._rightMargin,this._topMargin,this._bottomMargin)}Release(){super.Release()}_Set3DCallback(cb){this._callback3d=
+cb}Draw(renderer){const wi=this.GetWorldInfo();const bquad=wi.GetBoundingQuad();this._Draw(renderer,bquad.getTlx(),bquad.getTly(),wi.GetWidth(),wi.GetHeight())}_Draw(renderer,myx,myy,myw,myh){let textureSet=this._sdkType.GetTextureSet();if(!textureSet){this._sdkType.CreatePatch(this._leftMargin,this._rightMargin,this._topMargin,this._bottomMargin);textureSet=this._sdkType.GetTextureSet();if(!textureSet)return}const iw=textureSet.GetImageWidth();const ih=textureSet.GetImageHeight();const lm=Math.min(this._leftMargin,
+iw);const rm=Math.min(this._rightMargin,iw);const tm=Math.min(this._topMargin,ih);const bm=Math.min(this._bottomMargin,ih);const re=iw-rm;const be=ih-bm;const s=this._isSeamless?1:0;const edges=this._edges;const fill=this._fill;if(lm>0&&tm>0)this._DrawPatch(renderer,textureSet.GetTexture(),0,0,lm+s,tm+s,myx,myy,lm+s,tm+s);if(rm>0&&tm>0)this._DrawPatch(renderer,textureSet.GetTexture(),re-s,0,rm+s,tm+s,myx+myw-rm-s,myy,rm+s,tm+s);if(rm>0&&bm>0)this._DrawPatch(renderer,textureSet.GetTexture(),re-s,be-
+s,rm+s,bm+s,myx+myw-rm-s,myy+myh-bm-s,rm+s,bm+s);if(lm>0&&bm>0)this._DrawPatch(renderer,textureSet.GetTexture(),0,be-s,lm+s,bm+s,myx,myy+myh-bm-s,lm+s,bm+s);if(edges===0){const off=fill===2?0:s;if(lm>0&&be>tm)this._TilePatch(renderer,textureSet.GetLeftTexture(),myx,myy+tm,lm+off,myh-tm-bm,0,0);if(rm>0&&be>tm)this._TilePatch(renderer,textureSet.GetRightTexture(),myx+myw-rm-off,myy+tm,rm+off,myh-tm-bm,off,0);if(tm>0&&re>lm)this._TilePatch(renderer,textureSet.GetTopTexture(),myx+lm,myy,myw-lm-rm,tm+
+off,0,0);if(bm>0&&re>lm)this._TilePatch(renderer,textureSet.GetBottomTexture(),myx+lm,myy+myh-bm-off,myw-lm-rm,bm+off,0,off)}else if(edges===1){if(lm>0&&be>tm)this._DrawPatch(renderer,textureSet.GetTexture(),0,tm,lm,be-tm,myx,myy+tm,lm,myh-tm-bm);if(rm>0&&be>tm)this._DrawPatch(renderer,textureSet.GetTexture(),re,tm,rm,be-tm,myx+myw-rm,myy+tm,rm,myh-tm-bm);if(tm>0&&re>lm)this._DrawPatch(renderer,textureSet.GetTexture(),lm,0,re-lm,tm,myx+lm,myy,myw-lm-rm,tm);if(bm>0&&re>lm)this._DrawPatch(renderer,
+textureSet.GetTexture(),lm,be,re-lm,bm,myx+lm,myy+myh-bm,myw-lm-rm,bm)}if(be>tm&&re>lm)if(fill===0)this._TilePatch(renderer,textureSet.GetFillTexture(),myx+lm,myy+tm,myw-lm-rm,myh-tm-bm,0,0);else if(fill===1)this._DrawPatch(renderer,textureSet.GetTexture(),lm,tm,re-lm,be-tm,myx+lm,myy+tm,myw-lm-rm,myh-tm-bm)}_DrawPatch(renderer,tex,sx,sy,sw,sh,dx,dy,dw,dh){const texW=tex.GetWidth();const texH=tex.GetHeight();renderer.SetTexture(tex);tempRect1.set(dx,dy,dx+dw,dy+dh);tempRect2.set(sx/texW,sy/texH,(sx+
+sw)/texW,(sy+sh)/texH);if(this._callback3d===null){const wi=this.GetWorldInfo();const bquad=wi.GetBoundingQuad();const offX=bquad.getTlx();const offY=bquad.getTly();tempRect1.offset(-offX,-offY);tempQuad.setFromRotatedRect(tempRect1,wi.GetAngle());tempQuad.offset(offX,offY);renderer.Quad3(tempQuad,tempRect2)}else this._callback3d(tempRect1,tempRect2)}_TilePatch(renderer,tex,dx,dy,dw,dh,ox,oy){const texW=tex.GetWidth();const texH=tex.GetHeight();renderer.SetTexture(tex);tempRect1.set(dx,dy,dx+dw,dy+
+dh);tempRect2.set(-ox/texW,-oy/texH,(dw-ox)/texW,(dh-oy)/texH);if(this._callback3d===null){const wi=this.GetWorldInfo();const bquad=wi.GetBoundingQuad();const offX=bquad.getTlx();const offY=bquad.getTly();tempRect1.offset(-offX,-offY);tempQuad.setFromRotatedRect(tempRect1,wi.GetAngle());tempQuad.offset(offX,offY);renderer.Quad3(tempQuad,tempRect2)}else this._callback3d(tempRect1,tempRect2)}GetCurrentImageInfo(){this._objectClass.GetImageInfo()}GetPropertyValueByIndex(index){}SetPropertyValueByIndex(index,
+value){}}}{const C3=self.C3;C3.Plugins.NinePatch.Cnds={}}{const C3=self.C3;C3.Plugins.NinePatch.Acts={SetEffect(effect){this.GetWorldInfo().SetBlendMode(effect);this._runtime.UpdateRender()}}}{const C3=self.C3;C3.Plugins.NinePatch.Exps={}};
+
+}
+
+// scripts/plugins/NinePatch/c3runtime/textureSet.js
+{
+'use strict';const C3=self.C3;function CloneDrawable(drawable){const canvas=C3.CreateCanvas(drawable.width,drawable.height);const ctx=canvas.getContext("2d");ctx.drawImage(drawable,0,0);return canvas}
+self.NinePatchTextureSet=class NinePatchTextureSet{constructor(sdkType){this._sdkType=sdkType;this._runtime=this._sdkType.GetRuntime();this._texture=null;this._fillTexture=null;this._leftTexture=null;this._rightTexture=null;this._topTexture=null;this._bottomTexture=null;this._imageWidth=0;this._imageHeight=0;this._renderer=this._runtime.GetRenderer();this._isLoading=false;this._wasReleased=false}Release(){if(!this._renderer.IsContextLost()){this._renderer.DeleteTexture(this._texture);this._renderer.DeleteTexture(this._fillTexture);
+this._renderer.DeleteTexture(this._leftTexture);this._renderer.DeleteTexture(this._rightTexture);this._renderer.DeleteTexture(this._topTexture);this._renderer.DeleteTexture(this._bottomTexture)}this._texture=null;this._fillTexture=null;this._leftTexture=null;this._rightTexture=null;this._topTexture=null;this._bottomTexture=null;this._sdkType=null;this._renderer=null;this._wasReleased=true}WasReleased(){return this._wasReleased}CreateTextures(drawable,lm,rm,tm,bm){this._SliceImage(drawable,lm,rm,tm,
+bm)}HasCreatedTextures(){return!!this._texture}_SliceImage(drawable,lm,rm,tm,bm){if(this._wasReleased)return;const iw=drawable.width;const ih=drawable.height;this._imageWidth=iw;this._imageHeight=ih;lm=Math.min(Math.floor(lm),iw);rm=Math.min(Math.floor(rm),iw);tm=Math.min(Math.floor(tm),ih);bm=Math.min(Math.floor(bm),ih);const re=iw-rm;const be=ih-bm;const sampling=this._runtime.GetSampling();const anisotropy=this._runtime.GetCanvasManager().GetTextureAnisotropy();this._texture=this._renderer.CreateStaticTexture(CloneDrawable(drawable),
+{sampling,anisotropy});if(re>lm&&be>tm)this._fillTexture=this._renderer.CreateStaticTexture(this._SliceSubImage(CloneDrawable(drawable),lm,tm,re,be),{wrapX:"repeat",wrapY:"repeat",sampling,anisotropy});if(lm>0&&be>tm)this._leftTexture=this._renderer.CreateStaticTexture(this._SliceSubImage(CloneDrawable(drawable),0,tm,lm,be),{wrapY:"repeat",sampling,anisotropy});if(rm>0&&be>tm)this._rightTexture=this._renderer.CreateStaticTexture(this._SliceSubImage(CloneDrawable(drawable),re,tm,iw,be),{wrapY:"repeat",
+sampling,anisotropy});if(tm>0&&re>lm)this._topTexture=this._renderer.CreateStaticTexture(this._SliceSubImage(CloneDrawable(drawable),lm,0,re,tm),{wrapX:"repeat",sampling,anisotropy});if(bm>0&&re>lm)this._bottomTexture=this._renderer.CreateStaticTexture(this._SliceSubImage(CloneDrawable(drawable),lm,be,re,ih),{wrapX:"repeat",sampling,anisotropy})}_SliceSubImage(drawable,x1,y1,x2,y2){const w=x2-x1;const h=y2-y1;const tmpCanvas=C3.CreateCanvas(w,h);const tmpCtx=tmpCanvas.getContext("2d");tmpCtx.drawImage(drawable,
+x1,y1,w,h,0,0,w,h);return tmpCanvas}GetImageWidth(){return this._imageWidth}GetImageHeight(){return this._imageHeight}GetTexture(){return this._texture}GetFillTexture(){return this._fillTexture}GetLeftTexture(){return this._leftTexture}GetRightTexture(){return this._rightTexture}GetTopTexture(){return this._topTexture}GetBottomTexture(){return this._bottomTexture}};
 
 }
 
@@ -4472,33 +4487,18 @@ ImagePointCount(){return this.GetImagePointCount()},ImageWidth(){return this.Get
 
 }
 
-// scripts/plugins/NinePatch/c3runtime/runtime.js
+// scripts/plugins/Button/c3runtime/runtime.js
 {
-'use strict';{const C3=self.C3;C3.Plugins.NinePatch=class NinePatchPlugin extends C3.SDKPluginBase{constructor(opts){super(opts)}Release(){super.Release()}}}
-{const C3=self.C3;C3.Plugins.NinePatch.Type=class NinePatchType extends C3.SDKTypeBase{constructor(objectClass){super(objectClass);this._textureSet=null;this._drawable=null}Release(){this.ReleaseTextures();super.Release()}OnCreate(){this.GetImageInfo().LoadAsset(this._runtime)}async LoadTextures(renderer){const imageInfo=this.GetImageInfo();this._drawable=await imageInfo.ExtractImageToCanvas()}CreatePatch(lm,rm,tm,bm){if(this._textureSet||!this._drawable)return;this._textureSet=new self.NinePatchTextureSet(this);
-this._textureSet.CreateTextures(this._drawable,lm,rm,tm,bm)}ReleaseTextures(){if(this._textureSet){this._textureSet.Release();this._textureSet=null}}GetTextureSet(){return this._textureSet}}}
-{const C3=self.C3;const LEFT_MARGIN=0;const RIGHT_MARGIN=1;const TOP_MARGIN=2;const BOTTOM_MARGIN=3;const EDGES=4;const FILL=5;const INITIALLY_VISIBLE=6;const ORIGIN=7;const SEAMS=8;const tempRect1=C3.New(C3.Rect);const tempRect2=C3.New(C3.Rect);const tempQuad=C3.New(C3.Quad);C3.Plugins.NinePatch.Instance=class NinePatchInstance extends C3.SDKWorldInstanceBase{constructor(inst,properties){super(inst);this._leftMargin=16;this._rightMargin=16;this._topMargin=16;this._bottomMargin=16;this._edges=1;this._fill=
-1;this._isSeamless=true;this._callback3d=null;if(properties){this._leftMargin=properties[LEFT_MARGIN];this._rightMargin=properties[RIGHT_MARGIN];this._topMargin=properties[TOP_MARGIN];this._bottomMargin=properties[BOTTOM_MARGIN];this._edges=properties[EDGES];this._fill=properties[FILL];this._isSeamless=!!properties[SEAMS];this.GetWorldInfo().SetVisible(!!properties[INITIALLY_VISIBLE])}this._sdkType.CreatePatch(this._leftMargin,this._rightMargin,this._topMargin,this._bottomMargin)}Release(){super.Release()}_Set3DCallback(cb){this._callback3d=
-cb}Draw(renderer){const wi=this.GetWorldInfo();const bquad=wi.GetBoundingQuad();this._Draw(renderer,bquad.getTlx(),bquad.getTly(),wi.GetWidth(),wi.GetHeight())}_Draw(renderer,myx,myy,myw,myh){let textureSet=this._sdkType.GetTextureSet();if(!textureSet){this._sdkType.CreatePatch(this._leftMargin,this._rightMargin,this._topMargin,this._bottomMargin);textureSet=this._sdkType.GetTextureSet();if(!textureSet)return}const iw=textureSet.GetImageWidth();const ih=textureSet.GetImageHeight();const lm=Math.min(this._leftMargin,
-iw);const rm=Math.min(this._rightMargin,iw);const tm=Math.min(this._topMargin,ih);const bm=Math.min(this._bottomMargin,ih);const re=iw-rm;const be=ih-bm;const s=this._isSeamless?1:0;const edges=this._edges;const fill=this._fill;if(lm>0&&tm>0)this._DrawPatch(renderer,textureSet.GetTexture(),0,0,lm+s,tm+s,myx,myy,lm+s,tm+s);if(rm>0&&tm>0)this._DrawPatch(renderer,textureSet.GetTexture(),re-s,0,rm+s,tm+s,myx+myw-rm-s,myy,rm+s,tm+s);if(rm>0&&bm>0)this._DrawPatch(renderer,textureSet.GetTexture(),re-s,be-
-s,rm+s,bm+s,myx+myw-rm-s,myy+myh-bm-s,rm+s,bm+s);if(lm>0&&bm>0)this._DrawPatch(renderer,textureSet.GetTexture(),0,be-s,lm+s,bm+s,myx,myy+myh-bm-s,lm+s,bm+s);if(edges===0){const off=fill===2?0:s;if(lm>0&&be>tm)this._TilePatch(renderer,textureSet.GetLeftTexture(),myx,myy+tm,lm+off,myh-tm-bm,0,0);if(rm>0&&be>tm)this._TilePatch(renderer,textureSet.GetRightTexture(),myx+myw-rm-off,myy+tm,rm+off,myh-tm-bm,off,0);if(tm>0&&re>lm)this._TilePatch(renderer,textureSet.GetTopTexture(),myx+lm,myy,myw-lm-rm,tm+
-off,0,0);if(bm>0&&re>lm)this._TilePatch(renderer,textureSet.GetBottomTexture(),myx+lm,myy+myh-bm-off,myw-lm-rm,bm+off,0,off)}else if(edges===1){if(lm>0&&be>tm)this._DrawPatch(renderer,textureSet.GetTexture(),0,tm,lm,be-tm,myx,myy+tm,lm,myh-tm-bm);if(rm>0&&be>tm)this._DrawPatch(renderer,textureSet.GetTexture(),re,tm,rm,be-tm,myx+myw-rm,myy+tm,rm,myh-tm-bm);if(tm>0&&re>lm)this._DrawPatch(renderer,textureSet.GetTexture(),lm,0,re-lm,tm,myx+lm,myy,myw-lm-rm,tm);if(bm>0&&re>lm)this._DrawPatch(renderer,
-textureSet.GetTexture(),lm,be,re-lm,bm,myx+lm,myy+myh-bm,myw-lm-rm,bm)}if(be>tm&&re>lm)if(fill===0)this._TilePatch(renderer,textureSet.GetFillTexture(),myx+lm,myy+tm,myw-lm-rm,myh-tm-bm,0,0);else if(fill===1)this._DrawPatch(renderer,textureSet.GetTexture(),lm,tm,re-lm,be-tm,myx+lm,myy+tm,myw-lm-rm,myh-tm-bm)}_DrawPatch(renderer,tex,sx,sy,sw,sh,dx,dy,dw,dh){const texW=tex.GetWidth();const texH=tex.GetHeight();renderer.SetTexture(tex);tempRect1.set(dx,dy,dx+dw,dy+dh);tempRect2.set(sx/texW,sy/texH,(sx+
-sw)/texW,(sy+sh)/texH);if(this._callback3d===null){const wi=this.GetWorldInfo();const bquad=wi.GetBoundingQuad();const offX=bquad.getTlx();const offY=bquad.getTly();tempRect1.offset(-offX,-offY);tempQuad.setFromRotatedRect(tempRect1,wi.GetAngle());tempQuad.offset(offX,offY);renderer.Quad3(tempQuad,tempRect2)}else this._callback3d(tempRect1,tempRect2)}_TilePatch(renderer,tex,dx,dy,dw,dh,ox,oy){const texW=tex.GetWidth();const texH=tex.GetHeight();renderer.SetTexture(tex);tempRect1.set(dx,dy,dx+dw,dy+
-dh);tempRect2.set(-ox/texW,-oy/texH,(dw-ox)/texW,(dh-oy)/texH);if(this._callback3d===null){const wi=this.GetWorldInfo();const bquad=wi.GetBoundingQuad();const offX=bquad.getTlx();const offY=bquad.getTly();tempRect1.offset(-offX,-offY);tempQuad.setFromRotatedRect(tempRect1,wi.GetAngle());tempQuad.offset(offX,offY);renderer.Quad3(tempQuad,tempRect2)}else this._callback3d(tempRect1,tempRect2)}GetCurrentImageInfo(){this._objectClass.GetImageInfo()}GetPropertyValueByIndex(index){}SetPropertyValueByIndex(index,
-value){}}}{const C3=self.C3;C3.Plugins.NinePatch.Cnds={}}{const C3=self.C3;C3.Plugins.NinePatch.Acts={SetEffect(effect){this.GetWorldInfo().SetBlendMode(effect);this._runtime.UpdateRender()}}}{const C3=self.C3;C3.Plugins.NinePatch.Exps={}};
-
-}
-
-// scripts/plugins/NinePatch/c3runtime/textureSet.js
-{
-'use strict';const C3=self.C3;function CloneDrawable(drawable){const canvas=C3.CreateCanvas(drawable.width,drawable.height);const ctx=canvas.getContext("2d");ctx.drawImage(drawable,0,0);return canvas}
-self.NinePatchTextureSet=class NinePatchTextureSet{constructor(sdkType){this._sdkType=sdkType;this._runtime=this._sdkType.GetRuntime();this._texture=null;this._fillTexture=null;this._leftTexture=null;this._rightTexture=null;this._topTexture=null;this._bottomTexture=null;this._imageWidth=0;this._imageHeight=0;this._renderer=this._runtime.GetRenderer();this._isLoading=false;this._wasReleased=false}Release(){if(!this._renderer.IsContextLost()){this._renderer.DeleteTexture(this._texture);this._renderer.DeleteTexture(this._fillTexture);
-this._renderer.DeleteTexture(this._leftTexture);this._renderer.DeleteTexture(this._rightTexture);this._renderer.DeleteTexture(this._topTexture);this._renderer.DeleteTexture(this._bottomTexture)}this._texture=null;this._fillTexture=null;this._leftTexture=null;this._rightTexture=null;this._topTexture=null;this._bottomTexture=null;this._sdkType=null;this._renderer=null;this._wasReleased=true}WasReleased(){return this._wasReleased}CreateTextures(drawable,lm,rm,tm,bm){this._SliceImage(drawable,lm,rm,tm,
-bm)}HasCreatedTextures(){return!!this._texture}_SliceImage(drawable,lm,rm,tm,bm){if(this._wasReleased)return;const iw=drawable.width;const ih=drawable.height;this._imageWidth=iw;this._imageHeight=ih;lm=Math.min(Math.floor(lm),iw);rm=Math.min(Math.floor(rm),iw);tm=Math.min(Math.floor(tm),ih);bm=Math.min(Math.floor(bm),ih);const re=iw-rm;const be=ih-bm;const sampling=this._runtime.GetSampling();const anisotropy=this._runtime.GetCanvasManager().GetTextureAnisotropy();this._texture=this._renderer.CreateStaticTexture(CloneDrawable(drawable),
-{sampling,anisotropy});if(re>lm&&be>tm)this._fillTexture=this._renderer.CreateStaticTexture(this._SliceSubImage(CloneDrawable(drawable),lm,tm,re,be),{wrapX:"repeat",wrapY:"repeat",sampling,anisotropy});if(lm>0&&be>tm)this._leftTexture=this._renderer.CreateStaticTexture(this._SliceSubImage(CloneDrawable(drawable),0,tm,lm,be),{wrapY:"repeat",sampling,anisotropy});if(rm>0&&be>tm)this._rightTexture=this._renderer.CreateStaticTexture(this._SliceSubImage(CloneDrawable(drawable),re,tm,iw,be),{wrapY:"repeat",
-sampling,anisotropy});if(tm>0&&re>lm)this._topTexture=this._renderer.CreateStaticTexture(this._SliceSubImage(CloneDrawable(drawable),lm,0,re,tm),{wrapX:"repeat",sampling,anisotropy});if(bm>0&&re>lm)this._bottomTexture=this._renderer.CreateStaticTexture(this._SliceSubImage(CloneDrawable(drawable),lm,be,re,ih),{wrapX:"repeat",sampling,anisotropy})}_SliceSubImage(drawable,x1,y1,x2,y2){const w=x2-x1;const h=y2-y1;const tmpCanvas=C3.CreateCanvas(w,h);const tmpCtx=tmpCanvas.getContext("2d");tmpCtx.drawImage(drawable,
-x1,y1,w,h,0,0,w,h);return tmpCanvas}GetImageWidth(){return this._imageWidth}GetImageHeight(){return this._imageHeight}GetTexture(){return this._texture}GetFillTexture(){return this._fillTexture}GetLeftTexture(){return this._leftTexture}GetRightTexture(){return this._rightTexture}GetTopTexture(){return this._topTexture}GetBottomTexture(){return this._bottomTexture}};
+'use strict';{const C3=self.C3;const DOM_COMPONENT_ID="button";C3.Plugins.Button=class ButtonPlugin extends C3.SDKDOMPluginBase{constructor(opts){super(opts,DOM_COMPONENT_ID);this.AddElementMessageHandler("click",(sdkInst,e)=>sdkInst._OnClick(e))}Release(){super.Release()}}}{const C3=self.C3;C3.Plugins.Button.Type=class ButtonType extends C3.SDKTypeBase{constructor(objectClass){super(objectClass)}Release(){super.Release()}OnCreate(){}}}
+{const C3=self.C3;const C3X=self.C3X;const TYPE=0;const TEXT=1;const TOOLTIP=2;const INITIALLY_VISIBLE=3;const ENABLE=4;const AUTO_FONT_SIZE=5;const CHECKED=6;const ID=7;const CLASS_NAME=8;const DOM_COMPONENT_ID="button";C3.Plugins.Button.Instance=class ButtonInstance extends C3.SDKDOMInstanceBase{constructor(inst,properties){super(inst,DOM_COMPONENT_ID);this._text="OK";this._isCheckbox=false;this._isChecked=false;this._title="";this._id="";this._className="";this._isEnabled=true;this._autoFontSize=
+true;if(properties){this._isCheckbox=properties[TYPE]===1;this._text=properties[TEXT];this._title=properties[TOOLTIP];this.GetWorldInfo().SetVisible(properties[INITIALLY_VISIBLE]);this._isEnabled=properties[ENABLE];this._autoFontSize=properties[AUTO_FONT_SIZE];this._isChecked=properties[CHECKED];this._id=properties[ID];this._className=properties[CLASS_NAME]}this.CreateElement({"id":this._id,"className":this._className})}Release(){super.Release()}GetElementState(){return{"text":this._text,"isCheckbox":this._isCheckbox,
+"isChecked":this._isChecked,"title":this._title,"isVisible":this.GetWorldInfo().IsVisible(),"isEnabled":this._isEnabled}}async _OnClick(e){this._isChecked=e["isChecked"];this.DispatchScriptEvent("click",true);await this.TriggerAsync(C3.Plugins.Button.Cnds.OnClicked)}_SetText(text){if(this._text===text)return;this._text=text;this.UpdateElementState()}_GetText(){return this._text}_SetTooltip(title){if(this._title===title)return;this._title=title;this.UpdateElementState()}_GetTooltip(){return this._title}_SetEnabled(e){e=
+!!e;if(this._isEnabled===e)return;this._isEnabled=e;this.UpdateElementState()}_IsEnabled(){return this._isEnabled}_SetChecked(c){if(!this._isCheckbox)return;c=!!c;if(this._isChecked===c)return;this._isChecked=c;this.UpdateElementState()}_IsChecked(){return this._isChecked}Draw(renderer){}SaveToJson(){return{"text":this._text,"checked":this._isChecked,"title":this._title,"enabled":this._isEnabled}}LoadFromJson(o){this._text=o["text"];this._isChecked=o["checked"];this._title=o["title"];this._isEnabled=
+o["enabled"];this.UpdateElementState()}GetPropertyValueByIndex(index){switch(index){case TEXT:return this._GetText();case TOOLTIP:return this._GetTooltip();case ENABLE:return this._IsEnabled();case AUTO_FONT_SIZE:return this._autoFontSize;case CHECKED:return this._IsChecked()}}SetPropertyValueByIndex(index,value){switch(index){case TEXT:this._SetText(value);break;case TOOLTIP:this._SetTooltip(value);break;case ENABLE:this._SetEnabled(!!value);break;case AUTO_FONT_SIZE:this._autoFontSize=!!value;break;
+case CHECKED:this._SetChecked(!!value);break}}GetDebuggerProperties(){const prefix="plugins.button";return[{title:prefix+".name",properties:[{name:prefix+".properties.text.name",value:this._GetText(),onedit:v=>this._SetText(v)},{name:prefix+".properties.enabled.name",value:this._IsEnabled(),onedit:v=>this._SetEnabled(v)},{name:prefix+".properties.checked.name",value:this._IsChecked(),onedit:v=>this._SetChecked(v)}]}]}GetScriptInterfaceClass(){return self.IButtonInstance}};const map=new WeakMap;self.IButtonInstance=
+class IButtonInstance extends self.IDOMInstance{constructor(){super();map.set(this,self.IInstance._GetInitInst().GetSdkInstance())}set text(str){C3X.RequireString(str);map.get(this)._SetText(str)}get text(){return map.get(this)._GetText()}set tooltip(str){C3X.RequireString(str);map.get(this)._SetTooltip(str)}get tooltip(){return map.get(this)._GetTooltip()}set isEnabled(e){map.get(this)._SetEnabled(e)}get isEnabled(){return map.get(this)._IsEnabled()}set isChecked(c){map.get(this)._SetChecked(c)}get isChecked(){return map.get(this)._IsChecked()}}}
+{const C3=self.C3;C3.Plugins.Button.Cnds={OnClicked(){return true},IsChecked(){return this._isChecked},CompareText(str,caseSensitive){if(caseSensitive)return this._text===str;else return C3.equalsNoCase(this._text,str)}}}{const C3=self.C3;C3.Plugins.Button.Acts={SetText(text){this._SetText(text)},SetTooltip(title){this._SetTooltip(title)},SetChecked(c){this._SetChecked(c!==0)},ToggleChecked(){if(!this._isCheckbox)return;this._isChecked=!this._isChecked;this.UpdateElementState()}}}
+{const C3=self.C3;C3.Plugins.Button.Exps={Text(){return this._text}}};
 
 }
 
@@ -4963,6 +4963,19 @@ self.C3_ExpressionFuncs = [
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => ("Sürüm: " + f0());
 		},
+		() => "renkGecis",
+		() => 5308160,
+		() => 0.4,
+		() => "joker",
+		() => 0.2,
+		() => "renkNormal",
+		() => 16777215,
+		() => 0.3,
+		() => "pauseOyun3",
+		() => "jokerler",
+		() => "soru kontrol",
+		() => 50,
+		() => 100,
 		() => "Resolution",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
@@ -4973,6 +4986,8 @@ self.C3_ExpressionFuncs = [
 			const v0 = p._GetNode(0).GetVar();
 			return () => v0.GetValue();
 		},
+		() => "ayarlar",
+		() => "tekoyuncu",
 		() => "sinir",
 		() => "endokrin",
 		() => "duyuorgan",
@@ -4982,10 +4997,7 @@ self.C3_ExpressionFuncs = [
 		() => "solunum",
 		() => "ureme",
 		() => "uriner",
-		p => {
-			const n0 = p._GetNode(0);
-			return () => n0.ExpObject();
-		},
+		() => "ikioyuncu",
 		() => "cek",
 		() => "https://script.google.com/macros/s/AKfycbwdY_See2KINvF7HBtWZf3pu1yaGqZPMhq9t9DXM5VcBBPCpccM-akyZtG4OtlGfE3rhQ/exec",
 		() => "gonder",
@@ -5019,6 +5031,10 @@ self.C3_ExpressionFuncs = [
 			const v1 = p._GetNode(1).GetVar();
 			return () => (((v0.GetValue() + ": ") + v1.GetValue()) + "\n");
 		},
+		p => {
+			const n0 = p._GetNode(0);
+			return () => n0.ExpObject();
+		},
 		() => "border",
 		() => "2px solid white",
 		() => "background-color",
@@ -5031,17 +5047,11 @@ self.C3_ExpressionFuncs = [
 		() => "10px",
 		() => "border-radius",
 		() => "12px",
-		() => "renkGecis",
-		() => 5308160,
-		() => 0.4,
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			const f1 = p._GetNode(1).GetBoundMethod();
 			return () => and("Misafir", f0(f1(1000, 9999)));
 		},
-		() => 0.2,
-		() => 16777215,
-		() => 0.3,
 		() => 9013759,
 		() => 9013641,
 		() => 16772608,
@@ -5172,11 +5182,12 @@ self.C3_ExpressionFuncs = [
 			const v1 = p._GetNode(1).GetVar();
 			return () => (and((("{\"name\":\"" + v0.GetValue()) + "\",\"score\":"), v1.GetValue()) + "}");
 		},
-		() => "soru kontrol",
 		() => "a",
+		() => "yanlis",
 		() => 5263615,
 		() => "resetcolor",
 		() => -717750023016447,
+		() => "dogru",
 		() => 65280,
 		p => {
 			const v0 = p._GetNode(0).GetVar();
@@ -5197,8 +5208,11 @@ self.C3_ExpressionFuncs = [
 			const v0 = p._GetNode(0).GetVar();
 			return () => and(((12 - v0.GetValue()) + 1), ". Soru:");
 		},
+		() => 5,
+		() => "clock-ticking-83775",
+		() => "son5sn",
 		() => "50joker",
-		() => 100,
+		() => 6381921,
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			const f1 = p._GetNode(1).GetBoundMethod();
@@ -5277,6 +5291,37 @@ self.C3_ExpressionFuncs = [
 			const v3 = p._GetNode(3).GetVar();
 			const v4 = p._GetNode(4).GetVar();
 			return () => and(((and(((and(((and(((("İsim: " + v0.GetValue()) + "\n") + "Puanınız: "), v1.GetValue()) + "\n") + "Doğru Sayısı: "), v2.GetValue()) + "\n") + "Yanlış Sayısı: "), v3.GetValue()) + "\n") + "Süre Bonusu Hariç Puan: "), (v4.GetValue() * 100));
+		},
+		p => {
+			const v0 = p._GetNode(0).GetVar();
+			return () => and("1.Oyuncu Puan: ", v0.GetValue());
+		},
+		p => {
+			const v0 = p._GetNode(0).GetVar();
+			return () => and("2.Oyuncu Puan: ", v0.GetValue());
+		},
+		() => "soruları yazdir",
+		() => 10,
+		() => "oyuncu1_tuslar",
+		() => 4539717,
+		() => "oyuncu2_tuslar",
+		() => "soruKontrol",
+		() => 1.5,
+		() => "jokerlerTwoPlayer",
+		() => "50joker2",
+		() => "50joker3",
+		() => "jokerSeyirci2",
+		() => "jokerSeyirci3",
+		() => "jokerTelefon2",
+		() => 250,
+		() => "jokerTelefon3",
+		() => "jokerGec2",
+		() => "jokerGec3",
+		() => "pauseOyun2",
+		p => {
+			const v0 = p._GetNode(0).GetVar();
+			const v1 = p._GetNode(1).GetVar();
+			return () => and(((((and((("Oyuncu 1: " + "\n") + "Puanınız: "), v0.GetValue()) + "\n") + "Oyuncu 2: ") + "\n") + "Puanınız: "), v1.GetValue());
 		}
 ];
 
